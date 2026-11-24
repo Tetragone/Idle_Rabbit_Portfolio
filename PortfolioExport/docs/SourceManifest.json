@@ -1,0 +1,1979 @@
+{
+  "source_revision": "f621372929270c4eb8c450367a24b416f78a2e09",
+  "files": [
+    {
+      "source": "Assets/Scripts/Battle/BattleMgr.cs",
+      "destination": "Code/Battle/BattleMgr.cs",
+      "source_sha256": "dc2fae05f0f4736c1afd3aacd8138d7addbd900a887800e2aefed0878b03ee14",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "72e1969cb5b4e7606951c93928135c739ed1184a69faf7143207dd95ef87e088"
+    },
+    {
+      "source": "Assets/Scripts/Battle/BattleMgr.cs.meta",
+      "destination": "Code/Battle/BattleMgr.cs.meta",
+      "source_sha256": "a73458b451c47994c4fb06047fad9fdd9bb73a4046425cb36fd00a788fc87a24",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "50cafb59e05569547c718f17c472640d75da20938d806ac257c40ea6015b347e"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Buff.cs",
+      "destination": "Code/Battle/Buff.cs",
+      "source_sha256": "877f1854503d3939d4474480e015bb32dab574b5543471931e0f26f8836f9671",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "66e00685fdefa99e552df298e1b17a05d0ce3f249113cc2ae138391e3f36f08a"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Buff.cs.meta",
+      "destination": "Code/Battle/Buff.cs.meta",
+      "source_sha256": "78e48886aa707a6bf2e46d84b5feed64f1b0c6054f56968fcf8614a5f5d60813",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5f5fbe7850bc00538824928704f33e355533ddc6f79f30033645a348e33abfd0"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Map.cs",
+      "destination": "Code/Battle/Map.cs",
+      "source_sha256": "030ae274ff58215b57db0993fed5cbbe2df766fd96133e1a02f58a17331f40b3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "6afad73ebfd4b1dd4d98f00da486864678de636ec428dc91f4312359ca07852e"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Map.cs.meta",
+      "destination": "Code/Battle/Map.cs.meta",
+      "source_sha256": "d4d68b10a010241d4e82223c48585c10447925ffbd512eab740ce5ed952a5476",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "55931c52116e944c050ceca3c868e3be41b210c9968b05e33820b17d9fb99fbb"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Missile/BaseMissile.cs",
+      "destination": "Code/Battle/Missile/BaseMissile.cs",
+      "source_sha256": "d0657acf2bd28dec66d9dc6c10fa115d5b4d37cfeabf4f50a4e41447ed147d9e",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "61a364f730d23db97373e623dbd17d04d585521ba9a3fe4777d4ebb772de04bc"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Missile/BaseMissile.cs.meta",
+      "destination": "Code/Battle/Missile/BaseMissile.cs.meta",
+      "source_sha256": "0e35a6634a6ac070cc8b78f3c6e27c80e79df437bf8141f26c6cd52b0092b95e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1f98e2694f0bed475efe70b973cbe494f611c675f9adcbe6c968718998e8e448"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/BaseStage.cs",
+      "destination": "Code/Battle/Stage/BaseStage.cs",
+      "source_sha256": "62266aae4707cfec3b04c0a6499ce0b7849f561202051a72fe791c17b163bf22",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "b6252e195658130879bdd9e19b3b1cd6b2b65ba52b2a4785285cfa35e86acd29"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/BaseStage.cs.meta",
+      "destination": "Code/Battle/Stage/BaseStage.cs.meta",
+      "source_sha256": "29320e03d145c52d623f81023b4ece8b94891197d21124160628f00ee9077b96",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "bc52ff8c03bb1c08fac71cefd201f748406ddb081388ba3cb49cad4e4c96ee16"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/ChallengeStage.cs",
+      "destination": "Code/Battle/Stage/ChallengeStage.cs",
+      "source_sha256": "5f4269c6add9b09f189ca50ccf60febad12d4eea68b27a535e8da297cc9a8607",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "398750425e7d1dacfefc41fdb284e161bec252a274e8aa1aa65db5789f18d375"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/ChallengeStage.cs.meta",
+      "destination": "Code/Battle/Stage/ChallengeStage.cs.meta",
+      "source_sha256": "0552e5ddb78c4365d4227a44ad30948b4429dfa3453bdc5de0530322590256e5",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "3fb4e0da56c050e4aefd83ac412c62ec8e7c8f0653661e3fcc4e5baef558e31b"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/ChapterBossStage.cs",
+      "destination": "Code/Battle/Stage/ChapterBossStage.cs",
+      "source_sha256": "33a7d21390c8173cb6fa97d87959bcd32c4a77cfe1b8288c523257b0d4053703",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "6860c9eb5aaf8e7861ac50cd72bb554de96119416f45220735a7f45ee7654f4a"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/ChapterBossStage.cs.meta",
+      "destination": "Code/Battle/Stage/ChapterBossStage.cs.meta",
+      "source_sha256": "e68423f343efe3e41e079ba02097817498bafd35bbfce1a5aa3c7ecc71aa9dca",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "de3959e9c51a8885d716662b60e470a676762d9bffa30412b0783a9cfc2ec25d"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/GoldDungeonStage.cs",
+      "destination": "Code/Battle/Stage/GoldDungeonStage.cs",
+      "source_sha256": "0d9334b4e82fd35e066f16d5cb7e9bde60cf62a35de9609fb7672dd8787a5530",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "a2e6bf00b5b502c6bc8f98f98549fe83a311904ee0252e40f5a0615af5b58078"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/GoldDungeonStage.cs.meta",
+      "destination": "Code/Battle/Stage/GoldDungeonStage.cs.meta",
+      "source_sha256": "4e9c1eb66957bde9e06987bff2de3d4594251150942e84f3f35e69dc18b13231",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7ecb721a1db3668e9159aeaf2863958dc98ca56c965dbe23146f95be55f200b1"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IEnemySpawner.cs",
+      "destination": "Code/Battle/Stage/IEnemySpawner.cs",
+      "source_sha256": "cded5186869edfb732cef8f20080c79d3230635a7571084f2a389a22689ba3b7",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "f2f4d5e6b4ce40b51dfd8f400bf4a95fa8f133ef3960c193487dd40535c2fc40"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IEnemySpawner.cs.meta",
+      "destination": "Code/Battle/Stage/IEnemySpawner.cs.meta",
+      "source_sha256": "b2f1af46d6bd461c1ffeee43aaaea00087398d8a9fee6ab0ed5c6f9550839a89",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "dc96c6965435d9061f80da0d73f43ae772e95c46ab588175104737664b536f62"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IGoalStage.cs",
+      "destination": "Code/Battle/Stage/IGoalStage.cs",
+      "source_sha256": "319b676fb838090a092596c5e30e5d11824e2e64e12039f78ce0c909b2c242a4",
+      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
+      "export_sha256": "77c14bff906f976cd46b61f5140f6b35f7d35d7e64dba602a6d1654461e0559d"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IGoalStage.cs.meta",
+      "destination": "Code/Battle/Stage/IGoalStage.cs.meta",
+      "source_sha256": "d2140a114819e3bde63e9f1b54198be9462c8226abe56f25121272b6d7baa9ef",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e46afd0aa49006ca58d07c80dc7af3f36d8050f999ec5607c366c2dac0c7af7e"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStage.cs",
+      "destination": "Code/Battle/Stage/IStage.cs",
+      "source_sha256": "b932cbc65629fe2a8707a7a623ebdbc3a5921e38ae0916194630e049f5407aa7",
+      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
+      "export_sha256": "6fe67304907203ef0e2b871a5c5227b05250f8ceb8143860e1e2ececae99f021"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStage.cs.meta",
+      "destination": "Code/Battle/Stage/IStage.cs.meta",
+      "source_sha256": "3d1166301846038180e4fcb1eaf0d74b208db220b2a072dd67c2cbd3c3dc81ea",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "3d1166301846038180e4fcb1eaf0d74b208db220b2a072dd67c2cbd3c3dc81ea"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStageGoalRoles.cs",
+      "destination": "Code/Battle/Stage/IStageGoalRoles.cs",
+      "source_sha256": "a1afb13272c818f7ed22561839dbf7b7d1004a9e6860bb0018f76d361d635108",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "a1afb13272c818f7ed22561839dbf7b7d1004a9e6860bb0018f76d361d635108"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStageGoalRoles.cs.meta",
+      "destination": "Code/Battle/Stage/IStageGoalRoles.cs.meta",
+      "source_sha256": "38c42c5f097919db6dc8c67aaba28b488537d354bf39f0b77090420933d31158",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "38c42c5f097919db6dc8c67aaba28b488537d354bf39f0b77090420933d31158"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStageRequire.cs",
+      "destination": "Code/Battle/Stage/IStageRequire.cs",
+      "source_sha256": "9c718fb510d0b4a21c554c417556b0811306bddf2ae225340dafab27d3d7ec53",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "116ff1a05c60c7d2dcfe36ea816af5ea4ab97edd0ea2ff8521727ee270938bdb"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/IStageRequire.cs.meta",
+      "destination": "Code/Battle/Stage/IStageRequire.cs.meta",
+      "source_sha256": "9d16bc4fd053f6311965314bbf2393d59853706223c07ec56ed3b67d3aa8d532",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "109830e3e05023af34d82deaf5c45cd49f1dd4d2846caa08992b85f158ebc237"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/MultiSpawner.cs",
+      "destination": "Code/Battle/Stage/MultiSpawner.cs",
+      "source_sha256": "32ab37d34927b02392289eb87283c362d4c4fc6ab48d098a97b7a1ff768e46bd",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "a791d6dbaa6c16da53bf210aa9732a98d2922f0a441877e7c45a4ffc465039bb"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/MultiSpawner.cs.meta",
+      "destination": "Code/Battle/Stage/MultiSpawner.cs.meta",
+      "source_sha256": "3f8bf0fe42cc5717e2566f006ddc9c8f9df39ca2007990a99152bca1158e8583",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7ccb0d5190308906dae76b4f224423db0a029686f3fdc86d7bb67f3c555eb50e"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/NormalStage.cs",
+      "destination": "Code/Battle/Stage/NormalStage.cs",
+      "source_sha256": "c47bcfbc69e199d19200884c38cadeb5450bd50c1c7ca5a5ed0284df54470275",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "cf7c3290be612c446e919486c5c34876987037dbf00d93447cb23fa8dd96b06d"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/NormalStage.cs.meta",
+      "destination": "Code/Battle/Stage/NormalStage.cs.meta",
+      "source_sha256": "382d71792f0c6b9b01178d07a5158c36cc2a1b699d596c9ad5332e6837058da2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "a5b1b824a29ea9b0b4dfbec4aa749f538198b524581727639268d62fa8549f59"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/SingleSpwaner.cs",
+      "destination": "Code/Battle/Stage/SingleSpwaner.cs",
+      "source_sha256": "ca8e98f58d740ddd70dc3630e85c53f798acb8ed6577528d4dc47d335145ce5b",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "6b586bd1de146b055a7f7c0a833fabbc79b236717da679bb6d2764733e2031de"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/SingleSpwaner.cs.meta",
+      "destination": "Code/Battle/Stage/SingleSpwaner.cs.meta",
+      "source_sha256": "2ac9c452e2dd07bf1bf484fe98cd0e74235441446a2355e66625a88596f4cde9",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "25856e261b505404b33a3798ededcd7ac9ffbd652cc112d93614cf3ef45661c5"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/BaseUnit.cs",
+      "destination": "Code/Battle/Units/BaseUnit.cs",
+      "source_sha256": "c616cad2080b51a3979009ad204e725e8f787f2cb812a3a96617fa5b5c4aedcb",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "40d39c49269c2a3ecbf24b6a2848dd30027a8a8cf2518f05a46b9a9aab14a5dd"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/BaseUnit.cs.meta",
+      "destination": "Code/Battle/Units/BaseUnit.cs.meta",
+      "source_sha256": "92e054e30bba6665c83786e652de5f94b0679d3e8452db2d4d206413260c8fd0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "9fec2b1e916118b990381803b13036b8d3efee96e07988f82c280d1870429961"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/BaseUnitAnimation.cs",
+      "destination": "Code/Battle/Units/BaseUnitAnimation.cs",
+      "source_sha256": "0c082d91e57f43ea81482ac004a87b7f9b5473cb5f894e3e3c48ebfe182ebc4d",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "66c1b397ae62738c1911bc625fc88c75e73a94b5dbe0d257742faf99beaa2a38"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/BaseUnitAnimation.cs.meta",
+      "destination": "Code/Battle/Units/BaseUnitAnimation.cs.meta",
+      "source_sha256": "735ce9c5413737276e759eafb51d04148adfb0e56246aec49f74b00920ff6606",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "36be307d649c95ebc066199b901e050db9c8bfb5d5c5ceb7784ec4f517e76d9b"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/EnemyUnit.cs",
+      "destination": "Code/Battle/Units/EnemyUnit.cs",
+      "source_sha256": "5ccdbc4a0421e6e5e6649f6f2b7057531d2c2fce7c6ead2fc1541e08647509e4",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "e82711ddc89d19f57d02bbd7cb111d6ca01cc278466495b4c325711d87a5b871"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/EnemyUnit.cs.meta",
+      "destination": "Code/Battle/Units/EnemyUnit.cs.meta",
+      "source_sha256": "c5a6bcac98abd67dc397ceb61aa1c35127d4f76e2fc11bc177599ee8e43927d5",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "b0d1f2a1f9f28af32498f50949141dd2f54a3831e39bcda9cb6c57c59ef9e6b5"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/PlayerUnit.cs",
+      "destination": "Code/Battle/Units/PlayerUnit.cs",
+      "source_sha256": "750c1b6e4197f00672897a41cc944e380b3183eef496a3bb24ed1fe6163d1f7c",
+      "change": "사용하지 않는 외부 Firearm 타입과 using 제거",
+      "export_sha256": "76ddc6fa3f6d77ba8a63aa9ad3c6e6da2160b75cf90284370cd70a0c0da1f3a4"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/PlayerUnit.cs.meta",
+      "destination": "Code/Battle/Units/PlayerUnit.cs.meta",
+      "source_sha256": "db63595fb959617fb3d8f7ea717a573aca97af8e7802ee32bc644915dec5aa38",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ca28d775d0a4a117d0755f4bf301cbbe84f5ccd97bb6379b217da5db87696254"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/PlayerUnitSkinAdapter.cs",
+      "destination": "Code/Battle/Units/PlayerUnitSkinAdapter.cs",
+      "source_sha256": "50ac8133c011d83ca2e34359fd59214f9e52a90d4b4e30ec4c3f49d26249ecda",
+      "change": "공개용 수정: 외부 빌더 타입 대신 새 호출 계약 사용; 빌더 구현 미포함",
+      "export_sha256": "d2bc2c6d32f7565fc1e50eadecdd70a614de58a427e71035d5c8cadb362f8b48"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Units/PlayerUnitSkinAdapter.cs.meta",
+      "destination": "Code/Battle/Units/PlayerUnitSkinAdapter.cs.meta",
+      "source_sha256": "f13706fbb54d6622924dd2b0d6131c5a4ce145244ab82dd224dce3dc2ab5547f",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "6ea50a090a23fd756d31a67564fd90e604bea6ebb0e4a76b6acaf5aba20e32f1"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/DamageCalculator.cs",
+      "destination": "Code/Calculator/DamageCalculator.cs",
+      "source_sha256": "1cdb1c6240bfafc4c5405be4b19e393dd24cfa2d1ba90e3610969301f8bd1bd3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "281cdd44a05379872f5a4cfedf7abf8796154e6916a620d84c34f1b704720b66"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/DamageCalculator.cs.meta",
+      "destination": "Code/Calculator/DamageCalculator.cs.meta",
+      "source_sha256": "ca82426db644ba18eed1074fd76d8030b04e2557a32d9cba5829416c61d3b5bc",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "a8b86a07a052e92d94232dca4300ee7c6d3aa00cfd78ffab2916feba44e428ff"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/DropCalculator.cs",
+      "destination": "Code/Calculator/DropCalculator.cs",
+      "source_sha256": "4fb3df69b65f67d81835f04b59a908ed78f20f197488f9761f67ba8d8af0d707",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "f60abae71d660e0e9edd6c8a0ef4a15a7acbac3e29ba1f90b47717b2564ad898"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/DropCalculator.cs.meta",
+      "destination": "Code/Calculator/DropCalculator.cs.meta",
+      "source_sha256": "0b0e33401e8c103cfd0d638304834bceb9efa7cf4d28ba6895947de205a158d4",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "892c400c0387e47d546e0f99073999efb840af84fc496802c4531a243d34e2d1"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/Formula.cs",
+      "destination": "Code/Calculator/Formula.cs",
+      "source_sha256": "9bdec95319dde6f04e3c3278ec044fd267b7d0ec713169220537c259afc3be7d",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "7dc0b70d3897835142da0280b5e2e62215480a67da0ccea7c9263fb7b28c89f0"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/Formula.cs.meta",
+      "destination": "Code/Calculator/Formula.cs.meta",
+      "source_sha256": "78117dff188bd39e76ff83751ea0f06802b21bf28d71bfb0c856a597162c2f9e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "36eeed8f6daeb741e6a72f564e0e1c50939d4bd3b1d9cce33b3a8894af700420"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/GachaCalculator.cs",
+      "destination": "Code/Calculator/GachaCalculator.cs",
+      "source_sha256": "5676f20ea291454a977f83191ae0236d06fa1dfbfd6e24f3d772ed97d531f3ca",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "d652cbefde04ef9451d0f9744772141a8f52c46d1778eecd05bdac5abb852f45"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/GachaCalculator.cs.meta",
+      "destination": "Code/Calculator/GachaCalculator.cs.meta",
+      "source_sha256": "8f7b96d64a2088a63f471bbedabd4c15d4f5bb2d6b94dae1c2660fe962a894ff",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "16c3d0998c0018598955ea0ea18d9516cbc95b6b492fc65994878d47a8a0ec78"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/StageCalculator.cs",
+      "destination": "Code/Calculator/StageCalculator.cs",
+      "source_sha256": "6d3244926194f3dc286fe50ed3a63aec597d61f1fa73f2541a9a60f756458c1f",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "453dd40b7fc253fcb5ad63c00a2cd6c51650295d085fdfcdcddaabdba9920eec"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/StageCalculator.cs.meta",
+      "destination": "Code/Calculator/StageCalculator.cs.meta",
+      "source_sha256": "8e4890506e6daf018c6174d76ca1f729a82f64aca61b77b6113dd52a452534c2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "45157cfda9a66fa956667d3829bdd74b0c4b34ba5efc91bfb512e62ed2a4eb7e"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/StatCalculator.cs",
+      "destination": "Code/Calculator/StatCalculator.cs",
+      "source_sha256": "1ed5fc43a9da2edbe23b1ca77eb0320bde7acff87a820f53197c443dac42d848",
+      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
+      "export_sha256": "3111fd3a1132a7cc0d35b4678ddae444b6fbdc2d56da081cd0e37996818df773"
+    },
+    {
+      "source": "Assets/Scripts/Calculator/StatCalculator.cs.meta",
+      "destination": "Code/Calculator/StatCalculator.cs.meta",
+      "source_sha256": "c666544542fda3ac067a5ad4fdfeec5af28bb9b49f2045adfa53068241cd99ed",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "9786cc77ab07ad79926f1f26fca1ecb903c31e02d74009b2dfa69a2f09c49048"
+    },
+    {
+      "source": "Assets/Scripts/Common/Constant.cs",
+      "destination": "Code/Common/Constant.cs",
+      "source_sha256": "246d20a29f7bda3665a088740bdf4a2963fff62ed85fc8514ce190d19238ddb8",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "2daedbc72ee030705885668b9a2df7b02f6ce4ea97c00b601cb5a7303d4b4d62"
+    },
+    {
+      "source": "Assets/Scripts/Common/Constant.cs.meta",
+      "destination": "Code/Common/Constant.cs.meta",
+      "source_sha256": "067ea4a17a5fa8de86560a5dc2951735ec8cad41abe84e2e65ac1bd9a4bc6f6b",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "c0f84d19ecd5d0e5bdbdc7fff2fb0f1714de35b134f8cbabfe29db6285dce78d"
+    },
+    {
+      "source": "Assets/Scripts/Common/ContinueButton.cs",
+      "destination": "Code/Common/ContinueButton.cs",
+      "source_sha256": "811cab923155a4b4645ca50b5a49921211a7c95f39176c26c2818f18b2501275",
+      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
+      "export_sha256": "50ec7038baf450c811a0ad7075dc6bdefee4035283c05776f30a84cbb56447f9"
+    },
+    {
+      "source": "Assets/Scripts/Common/ContinueButton.cs.meta",
+      "destination": "Code/Common/ContinueButton.cs.meta",
+      "source_sha256": "20f20859f842376b75b34cc61aaa20b2307e470c8bcd7573a7c0f074f0caf5e2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "b624088028244cb7cd484f815c710f6bd0e9115feb74fb15e857e8e3b1588a1f"
+    },
+    {
+      "source": "Assets/Scripts/Common/Enums.cs",
+      "destination": "Code/Common/Enums.cs",
+      "source_sha256": "fe02cb93cc675f6ad2c741be99d6e794090b4c72794c7f507821574013194f29",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "09cbfad1ed8c6d23147140d70e0722139cca523ceb360e7482318fbec49cf68a"
+    },
+    {
+      "source": "Assets/Scripts/Common/Enums.cs.meta",
+      "destination": "Code/Common/Enums.cs.meta",
+      "source_sha256": "a7c09124b530bab215c86b2676310563fa1875b4209ef9e790dec32ae85d05b3",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "dc65450d4c95c9e8ed096bf4c7ea560f1489562c31b5ce808a5e7a66897c5c85"
+    },
+    {
+      "source": "Assets/Scripts/Common/MySpriteUtility.cs",
+      "destination": "Code/Common/MySpriteUtility.cs",
+      "source_sha256": "842cb95680f6eab96857ca0028b39781d60ac689c962897ebcfa9166fc793896",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "bcff7ed7895ae0f5e2757e8d02658264a74a6fc7003f6da6c93ad1c500582de8"
+    },
+    {
+      "source": "Assets/Scripts/Common/MySpriteUtility.cs.meta",
+      "destination": "Code/Common/MySpriteUtility.cs.meta",
+      "source_sha256": "c7f96aa7719429d6c6a8342571dccacdc7fbc1fde5354c1b816d859b7d62af9b",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "774887e5c1376c23c55330a3ce5329a18693110c1a129f89d0e5161a7d8c8b27"
+    },
+    {
+      "source": "Assets/Scripts/Common/MyState.cs",
+      "destination": "Code/Common/MyState.cs",
+      "source_sha256": "411df2fc28ae3f27a37dd26db0f572bb30de6b10d825287156298c194f88bb97",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "68be30cf1f475b0114a2e86580ed8a46e46938a542ef19b22d627a2b9e8d7d17"
+    },
+    {
+      "source": "Assets/Scripts/Common/MyState.cs.meta",
+      "destination": "Code/Common/MyState.cs.meta",
+      "source_sha256": "7814b54fc3cf2f4b5fca69d7e16a5171316000674dbb7605ddcff294b775156c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7a4dd9cb25288cc01e9adfefb74777dd0f37a74bd9122bb24587c17ceea3c650"
+    },
+    {
+      "source": "Assets/Scripts/Common/NumberFormatter.cs",
+      "destination": "Code/Common/NumberFormatter.cs",
+      "source_sha256": "8d1e8c973548d577a10efb05f363c95ffe62b1da716cc87ff2643a4844c2dcc4",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "151dbfb30a36a5172dfb7a93066c96120293fd339468451c07b00805fa7015d6"
+    },
+    {
+      "source": "Assets/Scripts/Common/NumberFormatter.cs.meta",
+      "destination": "Code/Common/NumberFormatter.cs.meta",
+      "source_sha256": "ba8e47f91e9bf5bc099992e00cc167e5b72292219e970b33c1f6e97642639bef",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "fe9a86a7292cef26528706093d1d5175479b14dcfbb92f1337ac2071c65d2e32"
+    },
+    {
+      "source": "Assets/Scripts/Common/RandomWord.cs",
+      "destination": "Code/Common/RandomWord.cs",
+      "source_sha256": "db56c1e8fda8769e576a5fc2bfd6d9b597bdf6a2c4b924e66047bb88d4f7546a",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "86128e5bd3d6f3fa6da98b71be32e7bb1ee4cd86d80d3726c098f3df9bd5039f"
+    },
+    {
+      "source": "Assets/Scripts/Common/RandomWord.cs.meta",
+      "destination": "Code/Common/RandomWord.cs.meta",
+      "source_sha256": "229d8064b4be20115eda17b10d79918874f2540db24824b8e382c23ddebe405a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "859a1e90c9efa6a7257d98252bbbca3f4d44da51ca0bfd0db2ce26b257bde448"
+    },
+    {
+      "source": "Assets/Scripts/Common/SerialKeyValue.cs",
+      "destination": "Code/Common/SerialKeyValue.cs",
+      "source_sha256": "9525be63232f3588f399f50b8c5aa6563a167521280ce696960d3889a719af5a",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "80d717aa73e8976bd49cfd9219904462b87c29386750270e3ba605be064b52aa"
+    },
+    {
+      "source": "Assets/Scripts/Common/SerialKeyValue.cs.meta",
+      "destination": "Code/Common/SerialKeyValue.cs.meta",
+      "source_sha256": "fe33dd7b20a3d5287e87a9931c8740d25c05fcfbb806b3cac99debde12ee0398",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "300bf511869bef6cebdbf9ba4b70632deb7109d8cdb79c074ce884d340502821"
+    },
+    {
+      "source": "Assets/Scripts/Common/Structs.cs",
+      "destination": "Code/Common/Structs.cs",
+      "source_sha256": "a019aa1b779ff05c0377f8a4378982c609b3b6cde69bf618388cafa46093a2f3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "d20c79b7f720b7eac5e44465f39999db3ffb38ffffe675335bc50b8fa6977ce4"
+    },
+    {
+      "source": "Assets/Scripts/Common/Structs.cs.meta",
+      "destination": "Code/Common/Structs.cs.meta",
+      "source_sha256": "d12df074ec3945ae0382d788eeb0067a4b2a9db01c0f2e1ad8ad16b467919bf4",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "b3f52268ec27764ac561623dfae5f1dd7e7b6af0796ae71ba616f4de299e18c4"
+    },
+    {
+      "source": "Assets/Scripts/Core/AtlasMgr.cs",
+      "destination": "Code/Core/AtlasMgr.cs",
+      "source_sha256": "bd64660d3b456443798f7307f250db01011528905d3cd37039ae6a77a34f8f66",
+      "change": "원본 Atlas 미포함 시 기본 이미지 표시를 위한 null 처리 추가",
+      "export_sha256": "54e123d780d766aedfd145a164430d399b1ec7f87da645ca9af3b06f78d4c626"
+    },
+    {
+      "source": "Assets/Scripts/Core/AtlasMgr.cs.meta",
+      "destination": "Code/Core/AtlasMgr.cs.meta",
+      "source_sha256": "2a6eae25b2752b9a4c61de123db70424280dd19eb8cfdf715cd0e4293bfe75bf",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "339284e9e22e98b464107e3c8e6dcf0ed5c55afa93a24cdb9954e22cf3602c4f"
+    },
+    {
+      "source": "Assets/Scripts/Core/CurrencyReward.cs",
+      "destination": "Code/Core/CurrencyReward.cs",
+      "source_sha256": "a5f95bf7ff201250e1856f58aedb0a16b560a58cd54a2b6e35f001934ef7978d",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "a5f95bf7ff201250e1856f58aedb0a16b560a58cd54a2b6e35f001934ef7978d"
+    },
+    {
+      "source": "Assets/Scripts/Core/CurrencyReward.cs.meta",
+      "destination": "Code/Core/CurrencyReward.cs.meta",
+      "source_sha256": "7d651295b7c03db96757370f5b85a6263128a7a2ac4c69ebea7f65dc2784462d",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "cd6b2da1aee408b15c422f5af2b1ae2f0bfb655bb7d01f5a3c22bc126890b6f5"
+    },
+    {
+      "source": "Assets/Scripts/Core/PowerMgr.cs",
+      "destination": "Code/Core/PowerMgr.cs",
+      "source_sha256": "5f74d6ca413603fe8cbe3084f82fbc4d671e670b70896ebd654e77f18f679eaa",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "9b5cf4b96781dcc26ac9e32ac15b3d248e5dff3de281bc058c4ae5027a38df5d"
+    },
+    {
+      "source": "Assets/Scripts/Core/PowerMgr.cs.meta",
+      "destination": "Code/Core/PowerMgr.cs.meta",
+      "source_sha256": "e26d04127df25111db916ec708a05b2e591bb59f6039a03b2764a33df61bcb9d",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "9c68acb9f66713955241c5d4f121e8882304336718c287b496539a50bc66497b"
+    },
+    {
+      "source": "Assets/Scripts/Core/Preloader.cs",
+      "destination": "Code/Core/Preloader.cs",
+      "source_sha256": "352bc7f9ae17f99b1fc1e6408785952025e6f2d07844c1b0327718601c557621",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "036f4e8b2df0d763e249fc752fcd74563eb0df19600fe6458b33574aae6eeb98"
+    },
+    {
+      "source": "Assets/Scripts/Core/Preloader.cs.meta",
+      "destination": "Code/Core/Preloader.cs.meta",
+      "source_sha256": "5bfd2d77325e572ccb44089f1e64eb543781f25e4905fd9e12236eae9ded8c13",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7a96d28faa58d86049dd1243dd89fe237bdc6ce1bf47f68588fc5f62831b1a12"
+    },
+    {
+      "source": "Assets/Scripts/Core/PurchaseMgr.cs",
+      "destination": "Code/Core/PurchaseMgr.cs",
+      "source_sha256": "65454685f34fdbfd0f366dfcf96cd6559424a01a2f86eda8cb9dd96c5455a9ba",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "5b097e97c616b6fed21a3bfa9f2af7a839b8fa4d0d05d25318152b9420fdc97e"
+    },
+    {
+      "source": "Assets/Scripts/Core/PurchaseMgr.cs.meta",
+      "destination": "Code/Core/PurchaseMgr.cs.meta",
+      "source_sha256": "93946e4f5d1785bfa9cb1c4fb6fccfcc99fa8cd65201a0d655e02b96925fbcfa",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "eb0a3f99d8a450306d4e7c27bb91ca643b06e77fd9a3b5bf8f37e852388cd286"
+    },
+    {
+      "source": "Assets/Scripts/Core/SceneMgr.cs",
+      "destination": "Code/Core/SceneMgr.cs",
+      "source_sha256": "c5880cd41c947f8cba2a8eebac1b3baeffa5961d307826bf8298494fe1c89b26",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "cd443ff9d106c44d34d05abebf22a0d2d476ae95e97489618624aa7621227459"
+    },
+    {
+      "source": "Assets/Scripts/Core/SceneMgr.cs.meta",
+      "destination": "Code/Core/SceneMgr.cs.meta",
+      "source_sha256": "d0780370c40fdb063738ba72a77345850b59f5d75327cb4673fc4d29ead6a2cc",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7fd129c82f3ed64eb5535ce8dc4f5fc9a377d007952d5710bf6779c17c01ce48"
+    },
+    {
+      "source": "Assets/Scripts/Core/Singleton.cs",
+      "destination": "Code/Core/Singleton.cs",
+      "source_sha256": "ca94262be472c05e1bd86ac2b298fbfb8100f531a61fbc1ffeeb39a4e140f3cb",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "2c1aa73a48feebc4f4b40d670f24cfd17e7dc48e52cb5fd750680474586bbd02"
+    },
+    {
+      "source": "Assets/Scripts/Core/Singleton.cs.meta",
+      "destination": "Code/Core/Singleton.cs.meta",
+      "source_sha256": "c6593e9cebdb395098a68711d3832e75f8bba89175e1951bc6e839db2202e5b7",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "165e1dd01715b7874528ac63ba78956280a8d5feab4a25fd1fb26a0ff52aa718"
+    },
+    {
+      "source": "Assets/Scripts/Core/SingletonAllTime.cs",
+      "destination": "Code/Core/SingletonAllTime.cs",
+      "source_sha256": "aade80e8ec5f926fd74a949ba5828dcc590bc834314efde1d7ede6331263ff5f",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "25650587d9a555b00006dab028ec4e4e3b61a426aca2d82004d364572e9583d9"
+    },
+    {
+      "source": "Assets/Scripts/Core/SingletonAllTime.cs.meta",
+      "destination": "Code/Core/SingletonAllTime.cs.meta",
+      "source_sha256": "d9ddee7ee14e91567e03ba754dc4e3f09d2921974d2750109948422ee30256c8",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "df17f3d75a1cdae293bb8c9a01f61bb1da9764d70686b8012bcf12931846d796"
+    },
+    {
+      "source": "Assets/Scripts/Core/SoundMgr.cs",
+      "destination": "Code/Core/SoundMgr.cs",
+      "source_sha256": "627e74c8eeb59aa1495b7e1cd9e5b4d1f8f95452a42b8d6898b0a23a347d28fd",
+      "change": "공개용 대체: 오디오 로딩·재생을 요청 이벤트로 변경",
+      "export_sha256": "f051868b9286356295dc7662560be747b1a2ba203105c6a4d91f2e717de08855"
+    },
+    {
+      "source": "Assets/Scripts/Core/SoundMgr.cs.meta",
+      "destination": "Code/Core/SoundMgr.cs.meta",
+      "source_sha256": "d27f0e5288dda019ba862d7ae9273264b31fd580b44cd83c1dfb0ce507f469f4",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "468caf397899dc7f19f678f0118e815af54a1d741e9af688e7db103f8add9c7c"
+    },
+    {
+      "source": "Assets/Scripts/Core/TimeMgr.cs",
+      "destination": "Code/Core/TimeMgr.cs",
+      "source_sha256": "d9d0643c2cf28776e69d196eb000982bab370296a8207599970adbf9446deda3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "f60de1729d197874a8732505dbbadb3efb77c1cbbf85591d45bcc2a067070c90"
+    },
+    {
+      "source": "Assets/Scripts/Core/TimeMgr.cs.meta",
+      "destination": "Code/Core/TimeMgr.cs.meta",
+      "source_sha256": "0c2e064683b67901ef0e3e707145d4b921b66d7200d4c8ec5900fc27c219639d",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "cfbdfe23d4c4da91f884e1c163e31d0ebe576d23862b34b7dae6b2acacb1c7a8"
+    },
+    {
+      "source": "Assets/Scripts/Data/DataMgr.cs",
+      "destination": "Code/Data/DataMgr.cs",
+      "source_sha256": "2616be725e6c3b75321f3198f4381774dea1d9b5596213167de40026e484ae02",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "5465a51df2ce40bebd601c85a8de7f2a7080198326c001b06e45e7b60ff77442"
+    },
+    {
+      "source": "Assets/Scripts/Data/DataMgr.cs.meta",
+      "destination": "Code/Data/DataMgr.cs.meta",
+      "source_sha256": "a1b6c490b171ecf08e9332e43a8aea69a4f0752b0e72da2a8c6bb10d7454d3fc",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "232b7bbcf7185312564bd9c7d264b547902e492fefd8fb81f93969e8b66c2b57"
+    },
+    {
+      "source": "Assets/Scripts/Data/EquipDataMgr.cs",
+      "destination": "Code/Data/EquipDataMgr.cs",
+      "source_sha256": "6586001134690d67783361febb647fe0fc6f16a4a7807031219efd0bcd444739",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "d72e0de0f55f9c9f836ef30e820877c2e26277680f5a545e69a81bf83800c2c0"
+    },
+    {
+      "source": "Assets/Scripts/Data/EquipDataMgr.cs.meta",
+      "destination": "Code/Data/EquipDataMgr.cs.meta",
+      "source_sha256": "739851b668009a4c56fe931d9e4e0bd4728871669a6d128326d8c22fa34f6ce8",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "632579c76588aa6180a4518c25a84c3377a180ad58326d2d533cc8f7cd9748de"
+    },
+    {
+      "source": "Assets/Scripts/Data/IBaseData.cs",
+      "destination": "Code/Data/IBaseData.cs",
+      "source_sha256": "dc1f3c846ee0895e5b1f40ca04d95a995031dcfe0a30482ccccc909755df3014",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "1c7045e864765f02e5b02c1b5c6830acc0d4fd2582228970d80ab1a43987ade6"
+    },
+    {
+      "source": "Assets/Scripts/Data/IBaseData.cs.meta",
+      "destination": "Code/Data/IBaseData.cs.meta",
+      "source_sha256": "3a12968f9ac6155cef40a476bfa7d3fc9795b25412b5ba0efe0a23ca1bb5a9d0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "71a20f14690a4621d13917fa0adf5dde853ed37c94f2384378fc6c54d1816358"
+    },
+    {
+      "source": "Assets/Scripts/Data/LocalDataMgr.cs",
+      "destination": "Code/Data/LocalDataMgr.cs",
+      "source_sha256": "60ce120e3a8c44e42374a3b52bb4cfabe3893814dd89094f39d26bff5348035d",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "8d528d1c69db3f8987d9d99e69ac992d317f41c02f323b6d627d293d74d20aff"
+    },
+    {
+      "source": "Assets/Scripts/Data/LocalDataMgr.cs.meta",
+      "destination": "Code/Data/LocalDataMgr.cs.meta",
+      "source_sha256": "e79f878f7d487ca1dc24fbf3243ffbc1a0fe7b1411a8dd1e151f87a796253cd8",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "593af5c3bcb1acddb70859311b3a1fbb997a9cb43cce84f6ff3afcdce6437b65"
+    },
+    {
+      "source": "Assets/Scripts/Data/OptionDataMgr.cs",
+      "destination": "Code/Data/OptionDataMgr.cs",
+      "source_sha256": "9484fb316d50c7f68a8c40d123cf5bd2602a6f33b56a0e137c4b029984e3329a",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "42080abd9dbb7cc7b480002a2d4b23acca5f391be32e8317b45dd516ba0e84fc"
+    },
+    {
+      "source": "Assets/Scripts/Data/OptionDataMgr.cs.meta",
+      "destination": "Code/Data/OptionDataMgr.cs.meta",
+      "source_sha256": "566df9edd694b8aeb37a7d417c57db1fc4ca403aa4922bf6a89f708b6cdad842",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "0ef723df72297d73e6d23ab528f5f82424856480895720408baf393bbbfcd0ed"
+    },
+    {
+      "source": "Assets/Scripts/Data/PlayerDataMgr.cs",
+      "destination": "Code/Data/PlayerDataMgr.cs",
+      "source_sha256": "4e239b13769699f2963887fe40b7c457a712d3445e381a15d73930b79217ac8e",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "78e2eed81a14ceb7867263bb16774122590b9af41956d8ac8cabf172c8976dc0"
+    },
+    {
+      "source": "Assets/Scripts/Data/PlayerDataMgr.cs.meta",
+      "destination": "Code/Data/PlayerDataMgr.cs.meta",
+      "source_sha256": "419b4575fda7a567e900c97d0a5b3fa3af37cac0156ad1580f566968b71c26a7",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "2bd4288c6825883bacabf2c99539e1f36c3085a761d6f17d7daffe26f0c06116"
+    },
+    {
+      "source": "Assets/Scripts/Data/SaveHelper.cs",
+      "destination": "Code/Data/SaveHelper.cs",
+      "source_sha256": "541da887c76aff130a008c645d517a5b34d1e562714dae1dfe2acd92c7f15c4e",
+      "change": "공개용 대체: 실제 파일 입출력을 제거하고 타입·Key별 메모리 JSON 저장으로 변경",
+      "export_sha256": "3d8ea1bb1c6c9731f7b70289591d1731e70bb4ac72bcc6acc9c69a19112b43eb"
+    },
+    {
+      "source": "Assets/Scripts/Data/SaveHelper.cs.meta",
+      "destination": "Code/Data/SaveHelper.cs.meta",
+      "source_sha256": "eedc4ac3f3bdc073a8df42db1c37bdda534560f0d661a54b3746290b7e118887",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4ff03a08e5adf1ebef1424fb39413147cf2c2985dafbd5b60cac152ba8dad5b5"
+    },
+    {
+      "source": "Assets/Scripts/Data/SkillDataMgr.cs",
+      "destination": "Code/Data/SkillDataMgr.cs",
+      "source_sha256": "27775b00edf4484fb06d3b6027867fe1d7902b899ac0b6f08acb564a4a469424",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "96b53f8ad59c9db2b8db3d996cad31428496df01edfc296f1321fafa3a455f83"
+    },
+    {
+      "source": "Assets/Scripts/Data/SkillDataMgr.cs.meta",
+      "destination": "Code/Data/SkillDataMgr.cs.meta",
+      "source_sha256": "3f957efdfbd37543f09bc55cf6f8682e89deff7223cf9b78b28c255e861c1733",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "21388d933f40119bd7a3dbac7e45859446cc168d00caa0917d2c8127643e89c3"
+    },
+    {
+      "source": "Assets/Scripts/Data/SoulDataMgr.cs",
+      "destination": "Code/Data/SoulDataMgr.cs",
+      "source_sha256": "b0e08746178c7384272b9c67cfe05966e43c0875996823a81ceed1a89fc79ae1",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "466052833fbb066b522b4cd2c9b28ebfbc5fd772bb03cb7b0da393b99089874f"
+    },
+    {
+      "source": "Assets/Scripts/Data/SoulDataMgr.cs.meta",
+      "destination": "Code/Data/SoulDataMgr.cs.meta",
+      "source_sha256": "d56a9b8471ad9cb71afaefe52466f473975d7cc4daec97fd81af5debbb16a49e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "6503146862c554d0825a0c19181587e177b30e772d596455445e652407ce229a"
+    },
+    {
+      "source": "Assets/Scripts/Data/Table.cs",
+      "destination": "Code/Data/Table.cs",
+      "source_sha256": "3f14e1db619d70857d8429f446fefd7aa609e8d32e8e7a195ae47eea9e453dba",
+      "change": "외부 CSVReader 호출을 명시적인 테이블 공급 함수로 대체",
+      "export_sha256": "cbdf2e0cd253c79214d6ce74596bf87401244a9bfa2538688fd73737cb46a618"
+    },
+    {
+      "source": "Assets/Scripts/Data/Table.cs.meta",
+      "destination": "Code/Data/Table.cs.meta",
+      "source_sha256": "fe2201fdb6a44e541ed597aece44f96b4bb36d544075f69cc8198629a93ec3f1",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7d7dab1cafaa16279b9a6904da0b4fc6bac5c1f0e339a5772698ecc95fa55039"
+    },
+    {
+      "source": "Assets/Scripts/Data/UpgradeDataMgr.cs",
+      "destination": "Code/Data/UpgradeDataMgr.cs",
+      "source_sha256": "4759c46a2ef1165ac09fb44068ca4600e22853725f7a7438e75e9cfc220fe995",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ed5d76f4667ba33600b791e733157604c2050b5e4762f5bc45e4a4bbac0e0697"
+    },
+    {
+      "source": "Assets/Scripts/Data/UpgradeDataMgr.cs.meta",
+      "destination": "Code/Data/UpgradeDataMgr.cs.meta",
+      "source_sha256": "1025f066887950f037ba689fd6fc8e8ed7fd7ef3a2882878e0306a51631ee17c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4168bcdcf5bb6d6152749ff82276e09ab872f292cb318ab7e161f5a313315e9e"
+    },
+    {
+      "source": "Assets/Scripts/Events/CurrencyExchangeEvent.cs",
+      "destination": "Code/Events/CurrencyExchangeEvent.cs",
+      "source_sha256": "ea804846a6ed670bc05df75fbff5c92a1c3212291c3a1ac84d70f80e1da95c32",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ea804846a6ed670bc05df75fbff5c92a1c3212291c3a1ac84d70f80e1da95c32"
+    },
+    {
+      "source": "Assets/Scripts/Events/CurrencyExchangeEvent.cs.meta",
+      "destination": "Code/Events/CurrencyExchangeEvent.cs.meta",
+      "source_sha256": "66394aeed4747a29691a65d4360d8f76f7c3b3146daa65e42a8e7df1c0f1f1b0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "53f9397b9ff7b20dc19448a002b74ea26f3b09d1121a6bfcd802c42189b42977"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventData.cs",
+      "destination": "Code/Events/EventData.cs",
+      "source_sha256": "ec0a25ada83ccac86425a345dc6b49b0c7bde02fb176bcec0131c7b76aa74169",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ec0a25ada83ccac86425a345dc6b49b0c7bde02fb176bcec0131c7b76aa74169"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventData.cs.meta",
+      "destination": "Code/Events/EventData.cs.meta",
+      "source_sha256": "fa613b6f6bdca07466c89501a20303c584c0a0dfe17a347ba0f9e4eb2f425716",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ccd3fb8a7997b5b69492781c6f0df95b531b34c1da2fffd919d7536185286504"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventHuntRule.cs",
+      "destination": "Code/Events/EventHuntRule.cs",
+      "source_sha256": "db46bda9d347117eaa821ffd473381f555b748545874adc9b6d7450fb4c1325a",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "db46bda9d347117eaa821ffd473381f555b748545874adc9b6d7450fb4c1325a"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventHuntRule.cs.meta",
+      "destination": "Code/Events/EventHuntRule.cs.meta",
+      "source_sha256": "23c9e8f9b4e75fe5ee8db3efaafba45a92e09128735efd5877ad9ae1152f22f8",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5f5a1140975ae2d0bba06449825a633ac4ce3061bde0b60b463a3cc56d990a2a"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventInfo.cs",
+      "destination": "Code/Events/EventInfo.cs",
+      "source_sha256": "0db5089714636e4a71c0bab25257d62a18a7820d70e3f46a5098e0bd002d2630",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "0db5089714636e4a71c0bab25257d62a18a7820d70e3f46a5098e0bd002d2630"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventInfo.cs.meta",
+      "destination": "Code/Events/EventInfo.cs.meta",
+      "source_sha256": "c62a7bc5e7eb385034035ba2c274de72eb3779f197f09756572b9574b1104249",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "c62a7bc5e7eb385034035ba2c274de72eb3779f197f09756572b9574b1104249"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventInterfaces.cs",
+      "destination": "Code/Events/EventInterfaces.cs",
+      "source_sha256": "b94f3cb52be3ded044e0a4ee7dfb15f170d73d5af46a7c31a15cd653de68f323",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "b94f3cb52be3ded044e0a4ee7dfb15f170d73d5af46a7c31a15cd653de68f323"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventInterfaces.cs.meta",
+      "destination": "Code/Events/EventInterfaces.cs.meta",
+      "source_sha256": "e21c9eedbc6f46a1b0b2d10440cb12dcda78afb6815a2352202fc9eb6ca8dc2a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e21c9eedbc6f46a1b0b2d10440cb12dcda78afb6815a2352202fc9eb6ca8dc2a"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventMgr.cs",
+      "destination": "Code/Events/EventMgr.cs",
+      "source_sha256": "87a980b1fa913c05cc4eefa8744eb316176ab60afc4e95119d4eca26b7d5a771",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "87a980b1fa913c05cc4eefa8744eb316176ab60afc4e95119d4eca26b7d5a771"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventMgr.cs.meta",
+      "destination": "Code/Events/EventMgr.cs.meta",
+      "source_sha256": "bd1da11b45a38f5dbb4a267a5954af772989de55704f7253de0a4d1ee4c598b8",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "921530ec9976e285a383fae03c6a34e35cdea746c2842e9605efee965f61d22f"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventSchedule.cs",
+      "destination": "Code/Events/EventSchedule.cs",
+      "source_sha256": "2fbde83b88f3dffa3cdb41035b9b457af3f65e917ac6544f554a8e246d450420",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "2fbde83b88f3dffa3cdb41035b9b457af3f65e917ac6544f554a8e246d450420"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventSchedule.cs.meta",
+      "destination": "Code/Events/EventSchedule.cs.meta",
+      "source_sha256": "a75793fd9aef8b82dba133a55c8cd299262ce2c2996a7679b89a9cb9b1506437",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4eb3d35be2098541412d47775bf608b6af96f5f7682a159e3fe24cb45b52c358"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventShopRule.cs",
+      "destination": "Code/Events/EventShopRule.cs",
+      "source_sha256": "23ed71fc7aa03cd636f4e0cf4600e2a68a16695099f33818d82e8a8bbd29630f",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "23ed71fc7aa03cd636f4e0cf4600e2a68a16695099f33818d82e8a8bbd29630f"
+    },
+    {
+      "source": "Assets/Scripts/Events/EventShopRule.cs.meta",
+      "destination": "Code/Events/EventShopRule.cs.meta",
+      "source_sha256": "d242cb94cb60c375e8f35b183121be340977491878d1ab0278c2659adb0f6c70",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ad70f553b790966186cb820e86580558f2e3b0f03686277b11cdb61c10d3c1c3"
+    },
+    {
+      "source": "Assets/Scripts/Events/GameEvent.cs",
+      "destination": "Code/Events/GameEvent.cs",
+      "source_sha256": "86e48778a3d57e5beaddf5294fba39a6c208178f5ac73e8e00259b59a7b75b60",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "86e48778a3d57e5beaddf5294fba39a6c208178f5ac73e8e00259b59a7b75b60"
+    },
+    {
+      "source": "Assets/Scripts/Events/GameEvent.cs.meta",
+      "destination": "Code/Events/GameEvent.cs.meta",
+      "source_sha256": "77e61f71606bf63522b36a7af63bea4fffd2e64c47ebd36b1728510714780579",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e8fcedf863a2e1e7d44a91776c15ad0bf5b812e732e2f789f25ba5e4d4b66a95"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/IPoolable.cs",
+      "destination": "Code/Pooling/IPoolable.cs",
+      "source_sha256": "a22d02401e4b569eb3cce1e3fc13b15668dcd4f2ee37223674653c85299fcc98",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "7209501d82e08f20e6a371575a0805eb81f0f6d9b2cffca203a17a757f660120"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/IPoolable.cs.meta",
+      "destination": "Code/Pooling/IPoolable.cs.meta",
+      "source_sha256": "946e507560fb762eb0663c7c5b6c47a5e0e5fe2a29d37887b106c895ee7b97d3",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "b0c354440284477ad7024d969b930f4b83d495b4ed21da9ef08f7e886420892f"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/ObjectPool.cs",
+      "destination": "Code/Pooling/ObjectPool.cs",
+      "source_sha256": "f664d1a80b712bdf596dd0467f104c78c309355273e5905d780287581d23d01e",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "34f984c5464c2448203989fde890a88e8f72aa5d9928930f64cf1b92335473c7"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/ObjectPool.cs.meta",
+      "destination": "Code/Pooling/ObjectPool.cs.meta",
+      "source_sha256": "3a41c89687db36fdb6cb171b2e0ab8f01ee049a76acd8c78dc0820feb1dd9b89",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "47e5c5dc185bc325224465b14457362f73f8b8ce440d361802b893f819da45b3"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/PoolMgr.cs",
+      "destination": "Code/Pooling/PoolMgr.cs",
+      "source_sha256": "f197883cab44da4dbc411c4d58819301a365cbb8fd53715f428fbaa9091f808e",
+      "change": "원본 통합 테스트의 관찰 코드 제거",
+      "export_sha256": "147d32216974605fbb6bc66c7b9fea86c21cd9c588960d4b1098aee2b71b6c9c"
+    },
+    {
+      "source": "Assets/Scripts/Pooling/PoolMgr.cs.meta",
+      "destination": "Code/Pooling/PoolMgr.cs.meta",
+      "source_sha256": "9893d62723a256f56cf9d4a76d2b140209d99dd0d191675405f73c386bafdb54",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "a56e8c5f0dbaf4bb5cc223caf2d00936313e0675165e9c3c7601a15860064d79"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestMgr.cs",
+      "destination": "Code/Quests/QuestMgr.cs",
+      "source_sha256": "f7c465a447b47a48bd455fa57e04d2aab2a683739e5685167472c177048c39a7",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "f7c465a447b47a48bd455fa57e04d2aab2a683739e5685167472c177048c39a7"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestMgr.cs.meta",
+      "destination": "Code/Quests/QuestMgr.cs.meta",
+      "source_sha256": "58801029cb6697747c1d2e28a72b0f926ce17ea81bb55c9d711b7ae6cb492d47",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "bd0d611b5ade060bf240090ddf6a32b6cfacefd2edb588fbd663531a864ab214"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestModule.cs",
+      "destination": "Code/Quests/QuestModule.cs",
+      "source_sha256": "484c4d8953957b00b3455158db6fc0b372e17758356c269c3fa2d01a52bbe43e",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "484c4d8953957b00b3455158db6fc0b372e17758356c269c3fa2d01a52bbe43e"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestModule.cs.meta",
+      "destination": "Code/Quests/QuestModule.cs.meta",
+      "source_sha256": "4a6365f40e541e4d179fb2888008b92a67d40822c30269eaff47f52cfd893d3c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "503cfa29a3bb3816f0579b33531ebf21396341b4e9439c4ff25520574f2a9f2b"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestReceiveAllResult.cs",
+      "destination": "Code/Quests/QuestReceiveAllResult.cs",
+      "source_sha256": "f3b8cb2521cb420a5bef57e7ccab9fb8b2a09ba018a521e2c91b536abbe3bdb8",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "f3b8cb2521cb420a5bef57e7ccab9fb8b2a09ba018a521e2c91b536abbe3bdb8"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestReceiveAllResult.cs.meta",
+      "destination": "Code/Quests/QuestReceiveAllResult.cs.meta",
+      "source_sha256": "d3292053f2830abdc7c8391d57b40f8d7f44206fcba9c480fafb9ac35a6bbe7e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "d3292053f2830abdc7c8391d57b40f8d7f44206fcba9c480fafb9ac35a6bbe7e"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestRule.cs",
+      "destination": "Code/Quests/QuestRule.cs",
+      "source_sha256": "9bf20b272e640f448434bb56698e8204f02f6b81fbfa21af6a1c5664920df0b2",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "9bf20b272e640f448434bb56698e8204f02f6b81fbfa21af6a1c5664920df0b2"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestRule.cs.meta",
+      "destination": "Code/Quests/QuestRule.cs.meta",
+      "source_sha256": "446d788b7923bab6e8235d5e308d8db8ea5f778f258e15f0003bbfbcd74cc71c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e174b56b8fcdd7e78f3cb813badddf13647cd82f95cd3b0cee8909bf8ca3641a"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestState.cs",
+      "destination": "Code/Quests/QuestState.cs",
+      "source_sha256": "ce1425780a4d6e4f84801a51203229b4ce872046838ce0de385de52df4990b3b",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ce1425780a4d6e4f84801a51203229b4ce872046838ce0de385de52df4990b3b"
+    },
+    {
+      "source": "Assets/Scripts/Quests/QuestState.cs.meta",
+      "destination": "Code/Quests/QuestState.cs.meta",
+      "source_sha256": "7b83cbcf7a03e2a9d140ff89d1445eeb16bbb0c6c631563bd08581453a03ef4c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7b83cbcf7a03e2a9d140ff89d1445eeb16bbb0c6c631563bd08581453a03ef4c"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventCurrencyChecks.cs",
+      "destination": "Code/Tests/Editor/EventCurrencyChecks.cs",
+      "source_sha256": "254ec2c7b767f2450205dbefe351181ed9824d2f79468412b2e15b823598cce5",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "254ec2c7b767f2450205dbefe351181ed9824d2f79468412b2e15b823598cce5"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventCurrencyChecks.cs.meta",
+      "destination": "Code/Tests/Editor/EventCurrencyChecks.cs.meta",
+      "source_sha256": "08cee57950c657bc46cb525d21559afd63e6ec2998a479eb1cb889f9d98d4423",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "08cee57950c657bc46cb525d21559afd63e6ec2998a479eb1cb889f9d98d4423"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventFoundationChecks.cs",
+      "destination": "Code/Tests/Editor/EventFoundationChecks.cs",
+      "source_sha256": "ed0cf0392bd8a5f451e23067e2d68dca977aebbfb6e3336ca1ac3e522aeb9cfa",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "fb9d8115fc3c25507a8af3f37baae20991a29bb4e7c938fd5cd583d75d7d7f8a"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventFoundationChecks.cs.meta",
+      "destination": "Code/Tests/Editor/EventFoundationChecks.cs.meta",
+      "source_sha256": "d7cbb8ffc0e2d49d53a5b94fa6ce2d5b5b55926da67553738297791b874973d0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ea7874ced0310c06e831f814086d09b5f162a14a8b556c1e3632060009eec145"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventHuntChecks.cs",
+      "destination": "Code/Tests/Editor/EventHuntChecks.cs",
+      "source_sha256": "efa75e5c7b74706fc636ce7002104eb2c361a7be1ee28b0f259a0938bfa42022",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "efa75e5c7b74706fc636ce7002104eb2c361a7be1ee28b0f259a0938bfa42022"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventHuntChecks.cs.meta",
+      "destination": "Code/Tests/Editor/EventHuntChecks.cs.meta",
+      "source_sha256": "d58d8e6a2efa7b9f4fdd4996c07c23ede28a9b65304c60e07d9f561ecb34af20",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5d6b984ad48d6e77c4a54bf81c23a7ab1d7c89471894458b6c61b8b76c2b9bc1"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventOfflineChecks.cs",
+      "destination": "Code/Tests/Editor/EventOfflineChecks.cs",
+      "source_sha256": "947e745e048ecbcfc84ee5792ad83a7302b916c5270083155487de6a247faacc",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "947e745e048ecbcfc84ee5792ad83a7302b916c5270083155487de6a247faacc"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventOfflineChecks.cs.meta",
+      "destination": "Code/Tests/Editor/EventOfflineChecks.cs.meta",
+      "source_sha256": "7958ec7e805303a18d1d1b387decb899262b185d814faca1c5665e6863eafee7",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7958ec7e805303a18d1d1b387decb899262b185d814faca1c5665e6863eafee7"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventShopChecks.cs",
+      "destination": "Code/Tests/Editor/EventShopChecks.cs",
+      "source_sha256": "affd3df5d7d28adf37ee69d2d21b8566160365f4f9ec9cf67799799bf9b2d4d3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "affd3df5d7d28adf37ee69d2d21b8566160365f4f9ec9cf67799799bf9b2d4d3"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/EventShopChecks.cs.meta",
+      "destination": "Code/Tests/Editor/EventShopChecks.cs.meta",
+      "source_sha256": "59d2f542cfee294155774e32eeedfd982f25856cacd345ef2d4d77d2f5c856ce",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "2cd7ae1b488c9b9bc738150be921733dcb586365b2251f5d4f653d98a293b42f"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/QuestChecks.cs",
+      "destination": "Code/Tests/Editor/QuestChecks.cs",
+      "source_sha256": "8a1e81b9097aaf579bbcf2c4e2b987f3fd1525421b0ce89e6b928bad0bf19ed6",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "8a1e81b9097aaf579bbcf2c4e2b987f3fd1525421b0ce89e6b928bad0bf19ed6"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/QuestChecks.cs.meta",
+      "destination": "Code/Tests/Editor/QuestChecks.cs.meta",
+      "source_sha256": "04e3913bb8c6b9286526819569c80610b9c6eae0e88b2c6763f279e74176d4ea",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "0e72fea82c49cca2620a0c7026d4dd982c03c83a2bc3533cce8d8307abb70890"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/VirtualListChecks.cs",
+      "destination": "Code/Tests/Editor/VirtualListChecks.cs",
+      "source_sha256": "bc5289157647dc7b3deafb2bef01210840e8448b1dfd356f69f434fa2e4782fd",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "902c78569b540a582b0d417db912ec0a88fa8db41951c6e0b11185198f8da890"
+    },
+    {
+      "source": "Assets/Scripts/Tests/Editor/VirtualListChecks.cs.meta",
+      "destination": "Code/Tests/Editor/VirtualListChecks.cs.meta",
+      "source_sha256": "b44d63d67d698e2231832afa3a3be3cd13a0ca4a59693d42b5a2f09a105aee1c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7b7612f4fbb47a327c55895ab635d6a60812a970263266a3770c53259063e38e"
+    },
+    {
+      "source": "Assets/Scripts/UI/GachaRateSet.cs",
+      "destination": "Code/UI/GachaRateSet.cs",
+      "source_sha256": "99b45b88555a6a0613f27257ec1f9ad48732cea19230a2fc458272805ea2ea3d",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "483b36c24afad674afa38499c78fddf09bbcc1068048daf31dd60f9d6c0dcb8d"
+    },
+    {
+      "source": "Assets/Scripts/UI/GachaRateSet.cs.meta",
+      "destination": "Code/UI/GachaRateSet.cs.meta",
+      "source_sha256": "8c1181e21b97d7995ec082f1ac8b4e64a5d1132cc7809deaf297fb6d855e4477",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "02b868cfd84b641dd992005438351ea4ce0e459d7b1b6ec9227d9a09f5fc50ef"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/Icon_MiniUnit.cs",
+      "destination": "Code/UI/InGame/Battle/Icon_MiniUnit.cs",
+      "source_sha256": "5dcffab2eb9450db824e1be72142c4402feb254ba8bf8b980b7a9f595207bf1b",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ddbe969e2351f60363702f6f0be06c369c6929ad72f022d997b57f2ca569d7d0"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/Icon_MiniUnit.cs.meta",
+      "destination": "Code/UI/InGame/Battle/Icon_MiniUnit.cs.meta",
+      "source_sha256": "0a951c6bcaabdaee76bb6dc032bbc47eb857ccef8eb998683df5b153032b289b",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "203a06f225d64136c391736958b6104d57cac0216454898d16503262da05556b"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/PlayerController.cs",
+      "destination": "Code/UI/InGame/Battle/PlayerController.cs",
+      "source_sha256": "4369cb93c8562024d0dfffa9fa437377dcfa00db8ace157f2f56190136a7d632",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "c95df6fce9301d63dd462288e62cd4e3b2f017167971d360f78efde7251ca99c"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/PlayerController.cs.meta",
+      "destination": "Code/UI/InGame/Battle/PlayerController.cs.meta",
+      "source_sha256": "02241cf99dc1c7f75a3979d7690e13352a2a9ae1b2f5168376fd5968e0f10f5f",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7ed97ad39c29fc9c9d3aa3b5ecfcf1e3b308da2d1cbffe4d63276316e49c7c5f"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_Damage.cs",
+      "destination": "Code/UI/InGame/Battle/UI_Damage.cs",
+      "source_sha256": "ac00c57779bc6fdcf163faeed9e5421b1efd89791ecca3849b0ecefb9d5675c4",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "a6e5b9c0dfe2b2fd8d1115fe3e157bc7bd4121708a845f82dcaa68860633dfc6"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_Damage.cs.meta",
+      "destination": "Code/UI/InGame/Battle/UI_Damage.cs.meta",
+      "source_sha256": "1fb3dcf5b55646eec28529d628014fc35b5fe3394dfb92321675f1ead3b7b82b",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f9f76aee912d70bbbd11545b53700c8096044312c78f0974017407f714743283"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_Hp.cs",
+      "destination": "Code/UI/InGame/Battle/UI_Hp.cs",
+      "source_sha256": "9dfc2acda8187bae272fc79a35bc9403d7ec52bf521e8d297621cbcaf4b91ad0",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "6a30585f9f3c9210dfe9bdc6aba225fc641083b981d0ae77663ac32824266468"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_Hp.cs.meta",
+      "destination": "Code/UI/InGame/Battle/UI_Hp.cs.meta",
+      "source_sha256": "7e31afb8ac59edea66a39dc939bed0bb514244fcfb288394e4d48c73f26b78fd",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "3c8fd81f88c481daf89d72faff1c27f4f2663d5745add994dadc139eb68ca6ab"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_HpRoot.cs",
+      "destination": "Code/UI/InGame/Battle/UI_HpRoot.cs",
+      "source_sha256": "45356205f2bb323dd746f59a973a06cc4cf5c42fb2d3b85c708a07dab0227078",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "76fb5b2ec33209f46148270f323b94275268601d013258a734ebe16d4e771833"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/UI_HpRoot.cs.meta",
+      "destination": "Code/UI/InGame/Battle/UI_HpRoot.cs.meta",
+      "source_sha256": "81c4fd7a6c18d8d308b9b1880b017d514f1bb344047bb22113568724e48fc20d",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1f7c19e355f107a2be9af36dbdb87d2712be5c5cd22c5e7cf2df748828039dca"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Currency.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Currency.cs",
+      "source_sha256": "d49ab671a60505f6bf32e90e125abb13cb13688ae35d4163626e6e4c90077ba1",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "53a2b79b4897e1c46c2646b05cfb2c9e731a4bc125f44976e43716ad3dcf5e69"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Currency.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Currency.cs.meta",
+      "source_sha256": "02a06d70388dfb1dd031daa558a733c5051901ad62e1cd8e70a8cf610c414179",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "dceb582c034992e4132324d3aa5428a84c883adfbbc8fc0278c5766e5bfbd468"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Equip.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Equip.cs",
+      "source_sha256": "da7d8dc4541a3e3d9820ac71c9d7c891305f1b3845748af3ee53e8953afbfd35",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "d78bd36929102dd50da3262023178b2367e1c3087b3c06403f03b5a8ba7c7635"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Equip.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Equip.cs.meta",
+      "source_sha256": "a6cf94e19617b12d90d26a52f72502bbe12b136ad03fb048c70d0397781ffae3",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "8c07963a6e7bd3a41b0f9eec538d7d2012e2875f4997141b5b1245b9d1a51470"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_GachaDetail.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_GachaDetail.cs",
+      "source_sha256": "d2e6b61b56a3d2a4292a0ae5214885403f4431b0b68bfaa2f9eae3edd23aa8ea",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "e25e953d426871e6ec5bdeb0c4a6f4e850810bad3d2323e90a93898f9bb7dc56"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_GachaDetail.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_GachaDetail.cs.meta",
+      "source_sha256": "0cd09ae0eed4b0bf02b934bd09d5acbf3c519158075f219d4d15dc242147dcaf",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f867e6540a4c25ca1b15906296fb89617476bdaebff20c965a57d5dc3086e19f"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Quest.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Quest.cs",
+      "source_sha256": "55671f79918bfedb7ed17f78d1f2a5e48aeaa3a328182c3e31eb606889292e81",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "55671f79918bfedb7ed17f78d1f2a5e48aeaa3a328182c3e31eb606889292e81"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Quest.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Quest.cs.meta",
+      "source_sha256": "328b2ed01a834f87355613e8c423c8696fcf602e2a7c34c99ecf3bfd8f2bb1d0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "328b2ed01a834f87355613e8c423c8696fcf602e2a7c34c99ecf3bfd8f2bb1d0"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Shop.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Shop.cs",
+      "source_sha256": "84a5c9864cca0f6cd3f258961bd6c8ec597afad86617d44fc7a33bec41560059",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "7ba9b7ccf6706c07a471daf2b5af91cb4eebcce9932c0cd1f2131ef0c28bd8a4"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Shop.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Shop.cs.meta",
+      "source_sha256": "1876d51203b957cb0bf34748c02aeba004ec44a959b0c2bd2b0feae4dd8b4804",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e1199565d02fd76173687df44a72aeb04efeda1827cf783b41e1cc0e709503e6"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_SimpleItem.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_SimpleItem.cs",
+      "source_sha256": "cfd1cf484fd8ea85094df2c2f347f14fbbdefb40d45d9420fc8d1c39c23d39d8",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "47f39a724ff9154375115745472465a6db4d75f14bad841449f7557eaddda6e3"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_SimpleItem.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_SimpleItem.cs.meta",
+      "source_sha256": "5f677987d5b05d5f35532cf488af57682b902f20b8e58ec0aedc7429a4090f67",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4d8c734ffa44c38688d96db8d53d218c0a6ea56833114162c41c571fa3eedbcd"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Soul.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Soul.cs",
+      "source_sha256": "68fb9353cb2fd06d23cf079515d1f54f97ad97adda03cd824fcbb7da2d5df621",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "22874f0c007494381630e5a6892f8f2f9a68aef76ce2a9ea3f10d26f5568f12d"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Soul.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Soul.cs.meta",
+      "source_sha256": "baf13311ed4852ae52f642a9b43dd53079770cf801479b52256d1cb818600cf1",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "13c4b0152dffaac10762645490c4becd6987c6814ebdf544036a07ddbb763748"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/SubUI.cs",
+      "destination": "Code/UI/InGame/SubUI.cs",
+      "source_sha256": "47a67625959543a360fe5e2f6bfae021d130a567b2d3f10dae7737c23afdeaa9",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "ce8589e654ae3f5a574ce260548f366233817f2f716ff93ae7fbaf930094c879"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/SubUI.cs.meta",
+      "destination": "Code/UI/InGame/SubUI.cs.meta",
+      "source_sha256": "c84f90bbf9622e1069dcdc5a24d60a997f231209619b894af5089335d7ea2ec0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4b6c2206cc39a45fd0338379ae11aadb8854398f9933db692822f152ebc1b59e"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UIMgr.cs",
+      "destination": "Code/UI/InGame/UIMgr.cs",
+      "source_sha256": "fd1e60a88bad317b7ef0231030f35e8439b9a7409157ee3ec38d8b01a51c3829",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "b05450d8dcffce7e52028458c271776a4680992180ad9cd313113e0d3d8804a0"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UIMgr.cs.meta",
+      "destination": "Code/UI/InGame/UIMgr.cs.meta",
+      "source_sha256": "2e7561d44ae4bd7b36462ec7fb0149412bf491f2c0b6575e9b220fef9307df7e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4affa80e2d3d30a383838cc199b9cbdb7dc1d8bcb9294d9651cba30c49e61979"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Equip.cs",
+      "destination": "Code/UI/InGame/UI_Equip.cs",
+      "source_sha256": "cecc7368a95ac02daa216b61a201c736c37cdaab14e40016ab8ae007abb41039",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "5e717caadc240d81bb7c6ca0ce2593d8c20e24cb1c3c7af8325981d8e2452a02"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Equip.cs.meta",
+      "destination": "Code/UI/InGame/UI_Equip.cs.meta",
+      "source_sha256": "d59ccd5e85fa5f52a52d2966428990367566b1288e5fb3d0d77f5c3e4fd9480d",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "e059bff93022dd3e07fa7460efd92350022339a697c2b9717c2206e7fc8aef23"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EquipSub.cs",
+      "destination": "Code/UI/InGame/UI_EquipSub.cs",
+      "source_sha256": "a60200e4f0d0ec1ec8cc874173bd328354b24093794b828ac3a3ae0b2e6aec6c",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "28c90b0987ef83ba6a11b3175861d5ee9dcc54acd2474725d0c44c666b60c485"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EquipSub.cs.meta",
+      "destination": "Code/UI/InGame/UI_EquipSub.cs.meta",
+      "source_sha256": "0d7f90812163eb0866939cfc22e11a94d3fe34690eae4719b945e6e90c1cf2a0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "9e81cd5914bcda650f4ff9a3202e4a76426f5f1a9f5a29dd9abde7c2b6cfc172"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Event.cs",
+      "destination": "Code/UI/InGame/UI_Event.cs",
+      "source_sha256": "14a209546367356020652e8db4c92a60664fdd7d2c1879f41003bd1823d7556c",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "14a209546367356020652e8db4c92a60664fdd7d2c1879f41003bd1823d7556c"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Event.cs.meta",
+      "destination": "Code/UI/InGame/UI_Event.cs.meta",
+      "source_sha256": "fd8c74630cf1ef6b52141fe566e8ceaf1ea251ca2be8bee268af7aba29ee2de0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "fd8c74630cf1ef6b52141fe566e8ceaf1ea251ca2be8bee268af7aba29ee2de0"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EventHuntQuest.cs",
+      "destination": "Code/UI/InGame/UI_EventHuntQuest.cs",
+      "source_sha256": "e8525b30ae6c8762365468a935a60d6ffe18e6c276566e1f64222161bc259b60",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "e8525b30ae6c8762365468a935a60d6ffe18e6c276566e1f64222161bc259b60"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EventHuntQuest.cs.meta",
+      "destination": "Code/UI/InGame/UI_EventHuntQuest.cs.meta",
+      "source_sha256": "696d6c5913720c8a58175d6f04c3611b49f628e5de11cd4e6c6a9d056ea55f50",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "696d6c5913720c8a58175d6f04c3611b49f628e5de11cd4e6c6a9d056ea55f50"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EventPage.cs",
+      "destination": "Code/UI/InGame/UI_EventPage.cs",
+      "source_sha256": "486c2fdfe5da27630e065a033dacbfb38585d00df1107714c4c8251931d48749",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "486c2fdfe5da27630e065a033dacbfb38585d00df1107714c4c8251931d48749"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_EventPage.cs.meta",
+      "destination": "Code/UI/InGame/UI_EventPage.cs.meta",
+      "source_sha256": "29adc2134ccd2cd79156cda03020a4a99532695f2564bcc15be1430c8bf23c73",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "29adc2134ccd2cd79156cda03020a4a99532695f2564bcc15be1430c8bf23c73"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Gauge.cs",
+      "destination": "Code/UI/InGame/UI_Gauge.cs",
+      "source_sha256": "04212519e108c0cfdc6333b27c4808718da57ca0eeb345f6b2e0f12ef9bc8aa1",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "358b818c7ec7abeb2ab0a5b769f3f5c5f64ae1ba3168d3cca1e6f10013d7d413"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Gauge.cs.meta",
+      "destination": "Code/UI/InGame/UI_Gauge.cs.meta",
+      "source_sha256": "f129a2ebf9d4c2892f761a66511c468cb6a1d6a25e01a2297c24f6c18770663f",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "fc67552dec064ce4a89fbe6ad2e9af445a20e2ee22ec5c88aa461dd6cc30fd6d"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Shop.cs",
+      "destination": "Code/UI/InGame/UI_Shop.cs",
+      "source_sha256": "8758cb93b1d28fa234aa225e2d0128131b227a6b497dda132894a2f388cf0053",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "3b549eb7c09dff3d2e4eb68a4799f3894431b45983cf7e1c4c56c18c4dfacb10"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Shop.cs.meta",
+      "destination": "Code/UI/InGame/UI_Shop.cs.meta",
+      "source_sha256": "10ecae92fd33dd66ed49dc09f82a288b22a29c31388d7073aa5179f18bd24922",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "99d40d55b2e1573dbd97e5fa9ac0fa625662660a414e2fdad45922ad3da7b249"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Soul.cs",
+      "destination": "Code/UI/InGame/UI_Soul.cs",
+      "source_sha256": "bf0ea8027f378451a5f4610614b5940bc827476a310d161332290aadf63bd3ab",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "50a2e5a1c9a7154df8a16dac985105f7493808533c237c51dae37954857aed61"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Soul.cs.meta",
+      "destination": "Code/UI/InGame/UI_Soul.cs.meta",
+      "source_sha256": "8f7e020c12a510a56642244daad95f7602e48b904c859d6ca1b75d3f0bea6590",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "c98103683436269c94f5217a6d62c6ffaff88b4504f17e50c222d1109e00c9b2"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_SoulFilter.cs",
+      "destination": "Code/UI/InGame/UI_SoulFilter.cs",
+      "source_sha256": "1ade370f378db8f3a27ca516ff86d6100ea3a27130f10755ac246072517c8e30",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "b33d8922a30f3ce73ed62eeb8d4f7b267720a0ceb03714b98b44c9ea8e1a1a9b"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_SoulFilter.cs.meta",
+      "destination": "Code/UI/InGame/UI_SoulFilter.cs.meta",
+      "source_sha256": "5babed4ded4e3277e85857a1ef198f5b7cfbcd428917a4a39ac588c9bda12f4e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "d95386d5633ee9d8c02508cea34a785da2e1b0fcdca0b7b2108dc4688b59b3f3"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_SoulSub.cs",
+      "destination": "Code/UI/InGame/UI_SoulSub.cs",
+      "source_sha256": "5df30e088905639aa922cd3bdb6cd5c27218b1d997fd4bac9116ba3a6d48d3fb",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "3e58c576db8a6e9a5ce84f99dc9a08ce881c07da060938a8e1f32c93711a48c8"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_SoulSub.cs.meta",
+      "destination": "Code/UI/InGame/UI_SoulSub.cs.meta",
+      "source_sha256": "2d365bbdf1a10d2acd1b36e2488c13e3001759403407b78569eaba07b54c6ea5",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ae3ab763e571330373c83ff9797cfafdfece7b00b98cfd53c9257cb0d49a7298"
+    },
+    {
+      "source": "Assets/Scripts/UI/MyLogger.cs",
+      "destination": "Code/UI/MyLogger.cs",
+      "source_sha256": "6896563e11fb48b5e3fb041d569e4cf2119c8aeac7ae88cf55d5f7d1619f78ca",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "387c6d1146a549dead3a2fb7447e2d4596e5528e00f90756a7b74390c0fd25a0"
+    },
+    {
+      "source": "Assets/Scripts/UI/MyLogger.cs.meta",
+      "destination": "Code/UI/MyLogger.cs.meta",
+      "source_sha256": "e34a47e8b90559040d9cae3eaff3d0f00eeb8a23c110261a66ca927864a85934",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7ea906aede7fa265604c38f7ff0b5125bccaa9ebef31ecc4a13f920b2ffe4f7b"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/BasePopup.cs",
+      "destination": "Code/UI/Popup/BasePopup.cs",
+      "source_sha256": "6c2eba865d2181a780bae8c88725c9e0ac4fb42f9c99144d1d349f1d92a705d5",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "2da818fe70aeee7b0bfbefd3fb22e7ae4f6553e5ca02e4d2ac377f61c5059119"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/BasePopup.cs.meta",
+      "destination": "Code/UI/Popup/BasePopup.cs.meta",
+      "source_sha256": "6f4687741187c44d4107df4fe9a66c97f8c9639aa91541ba8330c791c9a529f0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7851deac5a7879c9f2fbbc0f80c21e2476b9eac802936e3dafd0bbd34f00df5e"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/PopupMgr.cs",
+      "destination": "Code/UI/Popup/PopupMgr.cs",
+      "source_sha256": "4232cf8b4eea6912163e59cfd9f59058e58a35e989b066f9508c4d3630516d0b",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "02132f0e6ad3f1735a89dc6896b6198cd39f502e9cfaa8f9b685a32b68909da8"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/PopupMgr.cs.meta",
+      "destination": "Code/UI/Popup/PopupMgr.cs.meta",
+      "source_sha256": "2a40f7a5e3381a1bae8cbe379864f2b90541b24d4b2a86a67cb2ec43635f4fca",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f0bb14411dcdbd26e6ee77a7f85a46c340ef061460111094c2d997428f0a0405"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Common.cs",
+      "destination": "Code/UI/Popup/Popup_Common.cs",
+      "source_sha256": "a72df289ea8cb3f7efcdcad46ba5fe9b4bd2a435483916d3e0e0e28ee2eb00d3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "7eb9c90bb6013b08a7b53a42896df28b314bcf98adc701eb6a60f87f50917826"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Common.cs.meta",
+      "destination": "Code/UI/Popup/Popup_Common.cs.meta",
+      "source_sha256": "c03115e0e00c4fb941f32d658f3a9756126439f5b4778ed3a56ba1d45da616a1",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f4aee3c8109a9df116f67d6de98668a618b577ad13aa766734c9cd607067dd84"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_EquipGradeUp.cs",
+      "destination": "Code/UI/Popup/Popup_EquipGradeUp.cs",
+      "source_sha256": "cc0f402357123835f526f202ec88ab64945ea9b23435bb739ffa3268fb356d26",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "74bf0cd52e82e323896dd3910328b143be1daee622476837d163a061780012c4"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_EquipGradeUp.cs.meta",
+      "destination": "Code/UI/Popup/Popup_EquipGradeUp.cs.meta",
+      "source_sha256": "5352ef01bd749654703985c78cc462b3d7c0ab7baaeb19fc6dc6973a369c5573",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "48676bd4e00f81948aba2516d1d4cc0a3a4401f4a8fdf0d6041a3bcab155c637"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Gacha.cs",
+      "destination": "Code/UI/Popup/Popup_Gacha.cs",
+      "source_sha256": "bb4e165e6ae753a53f8e88cadc41a4a13be7b732d2cb90d4404aa5663fb377d0",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "6afc611bbdd3e8f12e5ef88a763bb01339a281971994454273168d841df27bb6"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Gacha.cs.meta",
+      "destination": "Code/UI/Popup/Popup_Gacha.cs.meta",
+      "source_sha256": "76b20f6aade7d28b4070a170945cc9479b65058f41eb4266db2801e72f70d339",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "8b3963c19214469d349cf54a99fabf02ee4c9f490f81568dca92bbf7eaa8a088"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_GachaDetail.cs",
+      "destination": "Code/UI/Popup/Popup_GachaDetail.cs",
+      "source_sha256": "faff1b8df754d7060da1ac643973a6008cd3ecbf556a2326ca89e3df491f86b2",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "27fe6e1ec15dc5d9fe5c324778093456016292f65d4d68665d08080b85861f06"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_GachaDetail.cs.meta",
+      "destination": "Code/UI/Popup/Popup_GachaDetail.cs.meta",
+      "source_sha256": "a80540e35ac1f6c762a609d3bb8186bd73eb2af47f93503584380d6d86da3023",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "a8aec0885839348ea03b2f5a9d0f21c4dc5310d69cc72d72a619e2c03e9f2808"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_GetItems.cs",
+      "destination": "Code/UI/Popup/Popup_GetItems.cs",
+      "source_sha256": "e342e5f11a1c2f6a948363d679298c51d7b6bb61609e3fbdac5f79d71d0618ca",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "96e8e82348f8839d9f602505df4b208cd1e7df08218ba10277a8c3b58db00bb4"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_GetItems.cs.meta",
+      "destination": "Code/UI/Popup/Popup_GetItems.cs.meta",
+      "source_sha256": "7ef1cc797cc80ed558b3408175d46e964c1fff2d2c602c5b9c1cae579cbcbef2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "7e2d8a695a89d9703c5d58d219f3bb3388fbbade3a2c885d7e2a4b72a1377088"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Message.cs",
+      "destination": "Code/UI/Popup/Popup_Message.cs",
+      "source_sha256": "7144e98c4a8105186266d736fab5835165a056987bf5d6e7651a3324d5e671e4",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "3318fdb868352c688abed3f68eecf4a39c2a112dd78ee82b47b4bbbec9a5b5dc"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_Message.cs.meta",
+      "destination": "Code/UI/Popup/Popup_Message.cs.meta",
+      "source_sha256": "6cda74e1f317ca51c602525a6c01105c56c88d585d890a670d2964373a1e74db",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "599cd15cc7dbe2eb0caf2721526fd6ee99492c9dbb9146a42ef677f6ca20bcfb"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_ShopConfirm.cs",
+      "destination": "Code/UI/Popup/Popup_ShopConfirm.cs",
+      "source_sha256": "96cae682da6cbc1f5c6d7e7409e2565d5859d389fd4e509315e8b2c01659dde9",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "4c958fe4115d9159e9e9c365164e24b09ba34e012c1a140fb0028029d2bc25ed"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_ShopConfirm.cs.meta",
+      "destination": "Code/UI/Popup/Popup_ShopConfirm.cs.meta",
+      "source_sha256": "12b93653a02e6a531bd8452e57f59fa109e36ebc727c669709ae0b4091e0fa67",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "995be138eed36a13e74986025fbb3a0b16290b85c24d75982168a561f1408e78"
+    },
+    {
+      "source": "Assets/Scripts/UI/ToggleTextSet.cs",
+      "destination": "Code/UI/ToggleTextSet.cs",
+      "source_sha256": "df2a35c84535227e5778686219bc66bb332e0b6041bd893200e98da7ac5d13bc",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "9480892d16c46885988f66fe0e734c01e22842fb6c1ac7043c6098106557ce52"
+    },
+    {
+      "source": "Assets/Scripts/UI/ToggleTextSet.cs.meta",
+      "destination": "Code/UI/ToggleTextSet.cs.meta",
+      "source_sha256": "49a313ea8fa32cd6760a303750ebca16237c0bc3d02f975e10a85aedc7efa15b",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "eebecc5cbb7ebca1f227ccb21b67d0a2b9620c0765993b9ad0320eece882beb6"
+    },
+    {
+      "source": "Assets/Scripts/UI/UI_Loading.cs",
+      "destination": "Code/UI/UI_Loading.cs",
+      "source_sha256": "1d22bdac1d8c26f87e514cee9982fc66035e926966106becff477312b4c383a0",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "c057b8c635102b117d0616a65532e80a4293edbfb88505872a28ffdc5782ce90"
+    },
+    {
+      "source": "Assets/Scripts/UI/UI_Loading.cs.meta",
+      "destination": "Code/UI/UI_Loading.cs.meta",
+      "source_sha256": "b324740e6084fbcb2529a83593531bc5cbcd4cd8bc5b4db371c3ff3f2365fcd6",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "86b75671e050217f6b2df3de5d77ee0c894f31ccc29cd93b2038fdff61b2700e"
+    },
+    {
+      "source": "Assets/Scripts/UI/UI_VirtualList.cs",
+      "destination": "Code/UI/UI_VirtualList.cs",
+      "source_sha256": "2f93dcdf004c8cb60bcc80a2d920b20a309e55b095f53e90288da22f87915bd3",
+      "change": "코드 유지, 줄바꿈만 정규화",
+      "export_sha256": "799b731006aa673fd14b09f7c05f77e74e442c8620e78939639d5d9ea776e5a9"
+    },
+    {
+      "source": "Assets/Scripts/UI/UI_VirtualList.cs.meta",
+      "destination": "Code/UI/UI_VirtualList.cs.meta",
+      "source_sha256": "b9d1097afc9cea4b7a9016d5a80569c837ee120327ac529e491c75f2dc5e47aa",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5bd1ad25882a46bf2cc95470e0a6f0aa623abfb7227c61608cb4ce058a9e6ff3"
+    },
+    {
+      "source": "Assets/Prefabs/UI/block.prefab",
+      "destination": "Prefabs/UI/block.prefab",
+      "source_sha256": "e5f3251979df63b90b92cc7c384e86a096f8dd3fa1be3e7bf63c080747db4dbe",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "e0378183805f46e36bcd33afe9d89a975c4cd610d8b02bcee5c6c294e3e5c23e"
+    },
+    {
+      "source": "Assets/Prefabs/UI/block.prefab.meta",
+      "destination": "Prefabs/UI/block.prefab.meta",
+      "source_sha256": "4c4d84c2ef237c9b83bfe3b053a7e96e5a49296fdde77ce96fe4a712cb4b8b5e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "46317d5b3b0c4f6512fc25128d88eb37e1a7a87fb7a996ce5d613ecc286eba41"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Equip.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_Equip.prefab",
+      "source_sha256": "5f59f3e423a9f02e52befa16d9ab1ac05b975eb0df44ea2d9ea3034db5629a10",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "82171c93d55378f8f4499e89aea50cadd4e953abee2378f3dad32ea7f92a6d2c"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Equip.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_Equip.prefab.meta",
+      "source_sha256": "cd7b357f331bedbb38e0ff3f5c1a1a8f4b1958bc489e7c63a044260a38fd9512",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5ffc8508343d928c6a15e69e5e0b27479ef2bde589dbb9b6506f5d1f48cc7f94"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Quest.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_Quest.prefab",
+      "source_sha256": "cca4513bec1eb738c02ad94f929fa591c63fdf3b50bd33894556ad2053206c3b",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "3b699272da736652cf67f4a2bdf39178ac8b0a46661db1edde1ad9e6b926f16f"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Quest.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_Quest.prefab.meta",
+      "source_sha256": "8bd5d5ff183c076bcbb4c8561680f36327d46faff873933426e39896dabaf9ad",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "164b9a844f18ced48062cdd6e3d92548b1cb10521dcf1d29b639f86d77eecc1c"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_ShopBig.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_ShopBig.prefab",
+      "source_sha256": "71843ba565b5068fde90f2c565e594b13afb00f168af9a78e7cf1ed8fe21acb8",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "d703cb7df843d098db83cff28f84a143811c07962a5f8afe8f1d0c6b0aef9c14"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_ShopBig.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_ShopBig.prefab.meta",
+      "source_sha256": "de89168c13b10ccde221ca5cb54192aa627b8849c710c81cfa7ac610ee12dd16",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4d83eb75cfa46e14d3b374e93d652bdcd80040522d7a8140df124ff96ec9dbac"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_ShopSmalll.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_ShopSmalll.prefab",
+      "source_sha256": "eec5e03f06e936853f58aefffa9aeb2d85b1da552536535a54f05262611d0152",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "6ab1d80e1c365624cd013d5e4ebd45cebb80e74699d82787efd608eebf457ca8"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_ShopSmalll.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_ShopSmalll.prefab.meta",
+      "source_sha256": "9d69257752aa687b601ddee8866e659e643c51914980ac9ab079fabea039b516",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5873ecda508c3e5c7b802a1f0bfd5c6116064fd06bb94956cf0be873233b2e11"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_SimpleItem.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_SimpleItem.prefab",
+      "source_sha256": "5b87db0cc427d636bc21ff7392d2228b0f9a93af1e53d27db765aa6c32f3cbf8",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "f141e4ff6174c0be80dfcdab57f5fe047bff75847271eaae56cc3d2d850ec19f"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_SimpleItem.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_SimpleItem.prefab.meta",
+      "source_sha256": "1e111c236cc657691e57651f003c11672cd03418e3437ef15909c8724c98ed2a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "6f6e73a75b4276b4a15fca93094dc70e3854699ee5951cf4d72a84e991e12e57"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Soul.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_Soul.prefab",
+      "source_sha256": "40d8e97a95b4d62e650616840aa4be62f44d2dfd9a69fa330c6a9da739e3cf64",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "e95f058a29d02258d2edf40a1d160c171f4dd3217b1575bb5ba3e34efe9a24c9"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Soul.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_Soul.prefab.meta",
+      "source_sha256": "7aa6d82a250ee238fc01e139f56672080d26ec208b7db3adc18aa697ebc758a6",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1df2fa164715ba0e4323c9b7a492910dd10c92a21c2b0c055e1cf6ca542045a9"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_TopbarCurrency.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_TopbarCurrency.prefab",
+      "source_sha256": "60d83a28ef57d564104a25c76b857233420124099d0d90a4f5e9d4d99c1b1371",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "51263a6b8e3777558dbb3178cd74a0d3dd868e23a27ffb46b3073a4499044ced"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_TopbarCurrency.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_TopbarCurrency.prefab.meta",
+      "source_sha256": "5ae6f9074fd33a05ef3c8b6a9fdd7913b8128511ec65d23ada859b1cfbe761c9",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "a6147e79000b8701d498f5aff1ea2f6df769d7c02c0e37df3a295adc5b381c58"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_UICurrency.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_UICurrency.prefab",
+      "source_sha256": "08ec886b4587eeb5055efcfd56005326636097ff59cdc9e7f9a2445938620583",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "151eed73232aec7419e1d231a8362873a8fb5e08b85f4fab0a1b1ecf44bccdae"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_UICurrency.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_UICurrency.prefab.meta",
+      "source_sha256": "70edf72d207c696d605a5de4ade1a8f08cbfa061171c72ab5c832ec7f402f87a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "3ff8e9575d7efae5f602af34c07633fcae89a19698c8f180853e9939aa62bdac"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/Event/UI_EventHuntQuest.prefab",
+      "destination": "Prefabs/UI/InGame/Event/UI_EventHuntQuest.prefab",
+      "source_sha256": "147bbc3b18c8e1188723df3c59ff85e1c061146463608270d663ee1b8eb55743",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "a49c5e7d6bbb831f70ca6cc02c50712c88974b44005d3723d5c3c08e05106ebc"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/Event/UI_EventHuntQuest.prefab.meta",
+      "destination": "Prefabs/UI/InGame/Event/UI_EventHuntQuest.prefab.meta",
+      "source_sha256": "a9d5b659013e0ab670b3fa4ae621a76d5c0bc8aac2a7ac6edf7ca46d2528c24c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1438bb29a674c724d219bb2aed11ab605cb27c9bd1900f466797deea02753c79"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/Obj_SoulFilter.prefab",
+      "destination": "Prefabs/UI/InGame/Obj_SoulFilter.prefab",
+      "source_sha256": "6e761c8117a6c909742fe0ef098b728c7d75c2734faaada8a3951e225eba89e5",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "e60f6927554291a69b9cdfe3d05868381935388352a93e41fda9e2a5f8bc4006"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/Obj_SoulFilter.prefab.meta",
+      "destination": "Prefabs/UI/InGame/Obj_SoulFilter.prefab.meta",
+      "source_sha256": "77d99ed5ecaa6ef7c88709d79774a5d6bb8bdfa635f4b4c20651e21685426420",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "441f3055b844eb0a423ab4114c21ba328cb169f6d82f8dfdce4c13e56cb42463"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/SubPanel/Panel_Soul.prefab",
+      "destination": "Prefabs/UI/InGame/SubPanel/Panel_Soul.prefab",
+      "source_sha256": "728f21255929185a0abb6db18f50fde07e1509feab592a9a6de3eb8d4d86a914",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "fd4d1c98a03cf2e2dd69c0e37b3d1f3f1a241e3da72701de65406fe5c02eb581"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/SubPanel/Panel_Soul.prefab.meta",
+      "destination": "Prefabs/UI/InGame/SubPanel/Panel_Soul.prefab.meta",
+      "source_sha256": "643dea2d615f1ff1540874a7e91db506def7720567c3f5436875106526d67d05",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "da8a6b1b68cb476253b38c3807334fd10e0ad91b742a7bcd43d2843c1a4bf616"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Equip.prefab",
+      "destination": "Prefabs/UI/InGame/UI_Equip.prefab",
+      "source_sha256": "ef1f02d330068f40daf7121b75a8877fa20f0b0a6ed9afd61b2036401571dbf5",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "c4253a5133538c07a30e25f830d83726aa0a0d7c7a384354efa2e24796c3df12"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Equip.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_Equip.prefab.meta",
+      "source_sha256": "d1cfde259075751effa1f2d114413ced4df9b08c521d2ffa860885443a57bb35",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f0ea816c6ba597e8b52b369b17c1757cd9b18a587892c7167ea0c353c10e5f84"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_EquipSub.prefab",
+      "destination": "Prefabs/UI/InGame/UI_EquipSub.prefab",
+      "source_sha256": "f9e386d289c9c2d40d2ede18b32d4ddf2b3d3ad44f644051a954dae08d956da5",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "2cc84e94ceaa865dcac7a730e46564275373ddeaec8b4c992e564b09a25f40be"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_EquipSub.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_EquipSub.prefab.meta",
+      "source_sha256": "ac4a02628bfc4ddb261aef571e006cb2a9513c578b79d795e39cbfb41529d381",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1ceced019c38a8fd59a9b569c5debad02c68a0bb8e6ae7634b068e80275d807c"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Event.prefab",
+      "destination": "Prefabs/UI/InGame/UI_Event.prefab",
+      "source_sha256": "3781b1bced4bdbde4e31450c0d7a67a32594209537dc2fc807eab63355c9fc3b",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "d52b810c1c74d4681577d23d4819ff0f9b9cff37f45cfe38f138fd111a30b89c"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Event.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_Event.prefab.meta",
+      "source_sha256": "91836e22f682a56a5396b9350e98b4a5d8d6f36920fb2be604c15735a37a7461",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "eb8ed772228a27ce36fa1dddd526034ccce3d864c8cc82abb627713b7e883001"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Shop.prefab",
+      "destination": "Prefabs/UI/InGame/UI_Shop.prefab",
+      "source_sha256": "b0c5aeabd712d389c23571e5649d27d6362e39de307409984594f74810098794",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "7571b6b16d1314204e7ed8a5133bc2a4fa50209865c40297be7ac4562ff7e97f"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Shop.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_Shop.prefab.meta",
+      "source_sha256": "43e5e12c65c10242735d9aa97f3d2e170cb807535f3872f69a1221a2bd9d852e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "402c83769d7f63192c44d7236bb3f53889ef1af4e6da0cb795f8ffd52bd44dea"
+    },
+    {
+      "source": "Assets/Prefabs/UI/OpDesc.prefab",
+      "destination": "Prefabs/UI/OpDesc.prefab",
+      "source_sha256": "52029ba6175cc3f4b111fd0379412024dac0737f05e11d9eca22263d32c04456",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "971824a9ed09ea651c7eea2b24679ed8c8b31272996db81c97806d90ced0269a"
+    },
+    {
+      "source": "Assets/Prefabs/UI/OpDesc.prefab.meta",
+      "destination": "Prefabs/UI/OpDesc.prefab.meta",
+      "source_sha256": "2b9070ea879dcd8159dd4767eac092ce4a9fda206e0c030169fd85b5c2dc1f29",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "27ef364c6582bb254f4b63ec99bc040eb769334e7626b7e388f7c8a5e9b1781c"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_Common.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_Common.prefab",
+      "source_sha256": "1f59db6f65d3fb27911291a94232ffcd1643c49287838b6fb6fa656c130ba647",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "98cc19824ef59fbed5b17d01940117f424cefe60dfb61a872af881a1c0ad80a2"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_Common.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_Common.prefab.meta",
+      "source_sha256": "3c1af7e9fe5be61ad4c7cb200fe1110d3ed56582e6b431dd8e284c55ccecc21f",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "df699554ff51451da891a7b4efd90328d6ca8ba9b130240f6cce1c70897cc9d7"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_EquipGradeUp.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_EquipGradeUp.prefab",
+      "source_sha256": "721ca2c6b19c0da627bffe69f96a4840f3d29baa18b6317eef0f8b3f5462aaeb",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "239f57fa12ea54f34870d35680fdd46220636f08a57d9aa177d6e253bc947892"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_EquipGradeUp.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_EquipGradeUp.prefab.meta",
+      "source_sha256": "bad1bdb453fba17f2ec5e55599e769e038932efb1946f33fcb8072132becb5b2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "fde4979ddcf17628b84e6f92819acf7419dc5d4cd858a9e41b7c0b2b433e7035"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_GetItem.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_GetItem.prefab",
+      "source_sha256": "55cc17049c0a3b1cac3da7afab0e84e8495dab152379c3e23c60208359d71cd2",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "2c4d86bff94de993085bd3984710c324ef4fee36fbe148cbbd57004a3dd11ff1"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_GetItem.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_GetItem.prefab.meta",
+      "source_sha256": "ca2a54f771fa53b467cf1989045f4a3a3d4b9048cbf151b5ab00e2bad25d4cf0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1dae4668ee989a933bdfaec4f135f32d02cee8b2161d980e3bd4ee128f593321"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_Message.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_Message.prefab",
+      "source_sha256": "15fba568ac9113b0ca5a5a48ee5c15ba05e78893d6744c479e57ff2a9e987691",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "6e593dcf00dfd8935719eccaf2feed8501ca8fc9e922316ef285b02459fa220b"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_Message.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_Message.prefab.meta",
+      "source_sha256": "001e120d9054761fd31dfa20a6ec47337585716f3f290d60268319ec996c4214",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "3c7c446cb534601e805944d90721b8ecdd0bab5cde8b479146246d7c97817246"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_ShopConfirm.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_ShopConfirm.prefab",
+      "source_sha256": "5b0fa1c1a57fc25388b6b0305b9e87e9fcc4044b99131f35b5796529a69e1b2b",
+      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "export_sha256": "b41f0f3075eaee274d955cf352de0bc84f94e2a18317fbf12e31194edfc6740a"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_ShopConfirm.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_ShopConfirm.prefab.meta",
+      "source_sha256": "85749bdcaa4454ef6a1a1111373e3fd6c92abc535a2133ecf149f2d184801af1",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "55e5a8dad285d4f4c0c56d8fb8e9c35c34ce56ac09a2d4590413d445cabe30de"
+    }
+  ]
+}

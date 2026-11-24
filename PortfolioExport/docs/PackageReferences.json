@@ -1,0 +1,16 @@
+{
+  "fe87c0e1cc204ed48ad3b37840f39efc": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Image.cs",
+  "4e29b1a8efbd4b44bb3f3716e73f07ff": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Button.cs",
+  "f4688fdb7df04437aeb418b961361dc5": "com.unity.ugui@3dd2fbd8c1f1/Runtime/TMP/TextMeshProUGUI.cs",
+  "306cc8c2b49d7114eaa3623786fc2126": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Layout/LayoutElement.cs",
+  "30649d3a9faa99c48a7b1166b86bf2a0": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs",
+  "8a8695521f0d02e499659fee002a26c2": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Layout/GridLayoutGroup.cs",
+  "3245ec927659c4140ac4f8d17403cc18": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Layout/ContentSizeFitter.cs",
+  "9085046f02f69544eb97fd06b6048fe2": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Toggle.cs",
+  "2fafe2cfe61f6974895a912c3755e8f1": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/ToggleGroup.cs",
+  "59f8146938fff824cb5fd77236b75775": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Layout/VerticalLayoutGroup.cs",
+  "31a19414c41e5ae4aae2af33fee712f6": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Mask.cs",
+  "2a4db7a114972834c8e4117be1d82ba3": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/Scrollbar.cs",
+  "1aa08ab6e0800fa44ae55d278d1423e3": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/ScrollRect.cs",
+  "3312d7739989d2b4e91e6319e9a96d76": "com.unity.ugui@3dd2fbd8c1f1/Runtime/UGUI/UI/Core/RectMask2D.cs"
+}
