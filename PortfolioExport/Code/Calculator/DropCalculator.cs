@@ -154,6 +154,7 @@ namespace Game.Calculate
             switch (type)
             {
                 case BattleType.GoldDungeon:
+                case BattleType.RogueDungeon:
                     {
                         int gemValue = 50 + nowStage * 50;
                         result.Add(Currency.Gem, gemValue);

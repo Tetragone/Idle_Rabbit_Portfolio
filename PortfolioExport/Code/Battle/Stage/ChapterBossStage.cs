@@ -51,10 +51,11 @@ namespace Game.Battle.Stage
             return BattleType.ChapterBoss;
         }
 
-        public override void DieEnemy(EnemyUnit unit)
+        public override bool DieEnemy(EnemyUnit unit)
         {
             Spawner.DieEnemy(unit);
             Clear();
+            return true;
         }
 
         private void Clear()

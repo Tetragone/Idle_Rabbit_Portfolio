@@ -43,10 +43,11 @@ namespace Game.Battle.Stage
             return new Vector3(-32, 6.5f, 0);
         }
 
-        public override void DieEnemy(EnemyUnit unit)
+        public override bool DieEnemy(EnemyUnit unit)
         {
             Spawner.DieEnemy(unit);
             DropCalculator.Drop(BattleMgr.Instance.StageId);
+            return true;
         }
 
         public override void DiePlayer()

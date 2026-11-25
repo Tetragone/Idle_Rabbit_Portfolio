@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
 
+using UnityEngine;
+
 using Game.Common;
 using Game.Data;
+using Game.Battle;
 
 namespace Game.Calculate
 {
@@ -163,6 +166,35 @@ namespace Game.Calculate
             };
         }
 
+        public static BattleStat ApplyRoguelikeEffects(BattleStat baseStat, IReadOnlyList<string> effectIds)
+        {
+            var values = new Dictionary<string, double>();
+
+            foreach (string id in effectIds)
+            {
+                string stat = Table.GetString(TableType.RoguelikeEffect, id, "stat");
+                double value = Table.GetFloat(TableType.RoguelikeEffect, id, "value");
+                values.TryGetValue(stat, out double current);
+                values[stat] = current + value;
+            }
+
+            // 선택 효과는 기본 전투 스탯에 적용하며, 같은 능력치의 증가율은 합산한다.
+            foreach (var pair in values)
+            {
+                switch (pair.Key)
+                {
+                    case "atk_multi": baseStat.Atk *= 1 + pair.Value / 100d; break;
+                    case "hp_multi": baseStat.MaxHp *= 1 + pair.Value / 100d; break;
+                    case "atk_spd": baseStat.AtkSpd *= 1 + (float)pair.Value / 100f; break;
+                    case "cri": baseStat.Cri = Mathf.Clamp(baseStat.Cri + (float)pair.Value, 0, 100); break;
+                    case "cridam_add": baseStat.CriDamage += (float)pair.Value; break;
+                    default: throw new InvalidOperationException($"지원하지 않는 로그라이크 능력치: {pair.Key}");
+                }
+            }
+
+            return baseStat;
+        }
+
         public static BattleStat CalculateEnemy(BattleType type, string sid, string eid)
         {
             switch (type)
@@ -172,6 +204,17 @@ namespace Game.Calculate
                     return CalculateNormalEnmey(sid, eid);
                 case BattleType.GoldDungeon:
                     return CalculateGoldDungeonEnemy(sid, eid);
+                case BattleType.RogueDungeon:
+                    BattleStat stat = CalculateGoldDungeonEnemy(sid, eid);
+
+                    if (!BattleMgr.Instance.TryGetRoguelike(out var stage))
+                    {
+                        throw new InvalidOperationException("로그라이크 적의 웨이브 정보를 찾을 수 없습니다.");
+                    }
+
+                    stat.Atk *= stage.CurrentWave.AtkMulti;
+                    stat.MaxHp *= stage.CurrentWave.HpMulti;
+                    return stat;
                 default:
                     return CalculateNormalEnmey(sid, eid);
             }

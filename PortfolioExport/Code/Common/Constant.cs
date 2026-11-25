@@ -32,6 +32,7 @@ namespace Game.Common
         public const string UpgradedTextColor = "55FF00";
 
         public const int MaxGoldDunegonStage = 50;
+        public const int MaxRoguelikeStage = 50;
 
         public const int SkillEquipCount = 6;
         public const int SkillPresetCount = 6;
@@ -79,7 +80,7 @@ namespace Game.Common
 
         public static readonly Dictionary<Currency, int> DailyAttendReward = new Dictionary<Currency, int>()
         {
-            { Currency.DungeonTicket1, 3 }
+            { Currency.DungeonTicket1, 3 }, { Currency.DungeonTicket2, 3 }, 
         };
 
         public const int EventShopExtraOpenDays = 3;

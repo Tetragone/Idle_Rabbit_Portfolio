@@ -31,3 +31,13 @@
 `Table.ReadSource` 연결 → 테이블 준비 → QuestMgr·EventMgr 초기화 → 저장 데이터 적용 → 기간·회차 갱신 → UI 활성화 순서입니다. `LocalDataMgr.InitDatas`, `LoadQuestData`, `LoadEventData`에서 실제 연결을 읽을 수 있습니다. 원본 Title 씬은 포함하지 않습니다.
 
 부팅, 인스턴스 생성, Inspector 연결, 테이블 공급, Addressables 준비 없이 임의의 UI 프리팹을 켜면 동작하지 않습니다. 공개본에서 원본 게임의 시작 절차까지 새로 구성하지 않았습니다.
+
+## 로그라이크 추가 의존성
+
+`RoguelikeStage`는 `BaseStage`, `IGoalStage`, `IStageRequire`를 사용하고 `WaveSpawner`는 기존 `IEnemySpawner`·`Preloader`·`PoolMgr`에 연결됩니다. 선택은 `GachaCalculator.GachaIdx`, 보상은 `DropCalculator`·`CurrencyReward`, 영구 기록과 퀘스트는 `PlayerDataMgr`·`QuestMgr`에 연결합니다.
+
+`BattleMgr.IsCombatPaused`를 BaseUnit·PlayerUnit·BaseMissile이 사용합니다. 웨이브 회수 알림은 BaseMissile에서 구독·해제합니다. 선택 효과는 PlayerUnit이 기본 스탯에서 StatCalculator를 호출해 계산합니다. `IStageCombat.DieEnemy`는 처리 여부를 bool로 반환하며 기존 스테이지 구현도 같은 계약으로 갱신했습니다.
+
+`UI_Game`은 전투 정보를 표시하고 팝업의 비동기 로딩 이후 스테이지·웨이브·활성 상태를 다시 검사합니다. `UI_Dungeon`은 진입, `UI_Menu`는 상태별 메뉴, `ActionPopup`은 결과 표시와 실패 비용을 처리합니다. 관련 보조 코드도 포함했지만 해당 화면을 실행할 씬은 제공하지 않습니다.
+
+신규 설정의 컬럼과 가상 예시는 [로그라이크 테이블](RoguelikeTables.md)을 참고하세요. 기존 공개용 `Table.ReadSource`, 메모리 저장, 사운드 알림과 스킨 빌더 계약은 그대로 유지합니다. 원본 CSV Reader와 스킨 빌더 구현을 다시 가져오지 않았습니다.

@@ -36,9 +36,11 @@ namespace Game.Data
             { TableType.EventHunt, "Tables/c_eventhunt" },
             { TableType.EventShop, "Tables/c_eventshop" },
             { TableType.Quest, "Tables/c_quest" },
+            { TableType.RoguelikeWave, "Tables/c_roguelike_wave" },
+            { TableType.RoguelikeEffect, "Tables/c_roguelike_effect" },
         };
 
-        // 공개본에는 CSV 파서를 포함하지 않는다. 외부에서 테이블 읽기 함수를 연결한다.
+        // 공개본에는 파서를 포함하지 않으며 외부에서 설정 공급 함수를 연결한다.
         public static Func<string, Dictionary<string, Dictionary<string, string>>> ReadSource;
 
         private int CorutineCount = 10;

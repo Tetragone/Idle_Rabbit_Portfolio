@@ -33,7 +33,7 @@ namespace Game.Battle.Stage
         public void ClearEnemy();
         public IReadOnlyDictionary<string, EnemyUnit> GetEnemies();
         public EnemyUnit GetClosestEnemy(Vector3 position);
-        public void DieEnemy(EnemyUnit unit);
+        public bool DieEnemy(EnemyUnit unit);
         public void DiePlayer();
     }
 }

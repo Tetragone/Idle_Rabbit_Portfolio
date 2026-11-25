@@ -16,6 +16,10 @@
 | 장비 목록·상세 | UI/InGame/UI_Equip.prefab, UI/InGame/UI_EquipSub.prefab |
 | Soul 목록 | UI/InGame/SubPanel/Panel_Soul.prefab |
 | Soul 필터 | UI/InGame/Obj_SoulFilter.prefab |
+| 로그라이크 효과 선택 | UI/Popup/Popup_RoguelikeSelect.prefab |
+| 로그라이크 효과 카드 | UI/Icon/icon_RoguelikeSelect.prefab |
+| 전투 HUD·공통 메뉴 | UI/InGame/UI_Topbar.prefab |
+| 던전 진입 | UI/InGame/UI_Dungeon.prefab |
 
 적·플레이어 프리팹, 스킨, 애니메이션은 제공하지 않습니다. 원본에 별도 Soul 상세 프리팹이 없으면 그 화면의 코드만 포함하며 새 프리팹을 만들어 원본처럼 소개하지 않습니다.
 
@@ -24,3 +28,5 @@
 새 프로젝트에 Code와 이 폴더를 넣고 필요한 Unity 패키지를 설치한 뒤 TMP 기본 폰트를 설정합니다. 프리팹 안 텍스트의 폰트·머티리얼, Image의 모양·RaycastTarget, 제거된 Animator 사용 여부를 확인합니다. 원본 설정과 이미지는 자동으로 복원되지 않습니다.
 
 부팅·테이블·관리자 초기화와 Addressables 등록은 별도로 필요합니다. 이 자료는 실행용 샘플이 아니며 프리팹 파일의 정적 참조 정리가 화면 검증을 의미하지 않습니다.
+
+로그라이크 선택 팝업은 PopupMgr에 `PopupType.RoguelikeSelect`로 등록해야 합니다. 효과 카드는 `Icon_RoguelikeEffect`를 사용하며 프리팹 파일명은 원본의 `icon_RoguelikeSelect`를 유지했습니다. 전투 HUD는 UI_Game·UI_Menu·UI_Topbar·UI_LobbyQuest를 함께 참조합니다. 이미지와 폰트, 원본 애니메이션을 비운 상태에서 버튼 입력·배치·선택 완료·팝업 닫기를 실제로 확인하지는 않았습니다.

@@ -46,7 +46,7 @@ namespace Game.Battle.Stage
         }
 
         public abstract void InitData(string nowStage);
-        public abstract void DieEnemy(EnemyUnit unit);
+        public abstract bool DieEnemy(EnemyUnit unit);
         public abstract void DiePlayer();
         public abstract BattleType GetBattleType();
         public abstract void Update();

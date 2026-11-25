@@ -1,0 +1,48 @@
+{
+  "Tables/c_roguelike_wave": {
+    "sample_wave_1": {
+      "stage": "1",
+      "wave": "1",
+      "clear_type": "KillAll",
+      "enemy_type": "Normal",
+      "enemy_ids": "sample_enemy",
+      "enemy_counts": "5",
+      "spawn_interval": "2",
+      "repeat_spawn": "x",
+      "max_alive": "3",
+      "time_limit": "60",
+      "atk_multi": "1",
+      "hp_multi": "1"
+    },
+    "sample_wave_2": {
+      "stage": "1",
+      "wave": "2",
+      "clear_type": "Survive",
+      "enemy_type": "Boss",
+      "enemy_ids": "sample_boss",
+      "enemy_counts": "1",
+      "spawn_interval": "3",
+      "repeat_spawn": "x",
+      "max_alive": "1",
+      "time_limit": "30",
+      "atk_multi": "1.2",
+      "hp_multi": "1.5"
+    }
+  },
+  "Tables/c_roguelike_effect": {
+    "sample_attack": {
+      "stat": "atk_multi",
+      "value": "10",
+      "weight": "1",
+      "max_stack": "2",
+      "icon": "sample_icon"
+    },
+    "sample_health": {
+      "stat": "hp_multi",
+      "value": "10",
+      "weight": "1",
+      "max_stack": "2",
+      "icon": "sample_icon"
+    }
+  }
+}

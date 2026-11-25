@@ -65,7 +65,7 @@ namespace Game.Battle.Stage
             return BattleType.GoldDungeon;
         }
 
-        public override void DieEnemy(EnemyUnit unit)
+        public override bool DieEnemy(EnemyUnit unit)
         {
             Spawner.DieEnemy(unit);
 
@@ -75,6 +75,8 @@ namespace Game.Battle.Stage
             {
                 Clear();
             }
+
+            return true;
         }
 
         private void Clear()

@@ -21,7 +21,11 @@ namespace Game.Battle
         public static event Action StageChanged;
         public static event Action<BattleType, bool> StageEnded;
         public static event Action PlayerDie;
+        public static event Action RoguelikeChanged;
+        public static event Action WaveCombatCleared;
         public bool IsReadied => IsInit;
+        public bool IsCombatPaused => NowStage is RoguelikeStage stage &&
+            (!IsInit || IsChangingBattle || stage.State != RoguelikeState.Fighting);
 
         public string StageId => StageInfo.GetStageId();
         public string StageBgPath => StageInfo.GetStageBgPath();
@@ -72,18 +76,73 @@ namespace Game.Battle
         private IGoalStage NowGoal = null;
         private IStageRequire NowStageRequire = null;
         private bool IsEnded = false;
+        private bool IsChangingBattle = false;
+
+        public bool TryGetRoguelike(out RoguelikeStage stage)
+        {
+            stage = NowStage as RoguelikeStage;
+            return stage != null;
+        }
+
+        public bool TrySelectRoguelikeEffect(string id)
+        {
+            return !IsChangingBattle && NowStage is RoguelikeStage stage && stage.TrySelectEffect(id);
+        }
+
+        public void RefreshRoguelikeStat(bool addHp)
+        {
+            Player.RefreshRoguelikeStat(addHp);
+        }
+
+        public void ClearWaveCombat()
+        {
+            WaveCombatCleared?.Invoke();
+            Player.ResetBattleTarget();
+        }
+
+        public void NotifyRoguelikeChanged()
+        {
+            RoguelikeChanged?.Invoke();
+        }
 
 
         public void DieEnemy(EnemyUnit unit)
         {
             BattleType battleType = NowBattleType;
-            StageCombat.DieEnemy(unit);
+            bool isHandled = StageCombat.DieEnemy(unit);
+            if (!isHandled)
+            {
+                return;
+            }
+
             EventMgr.Instance.OnEnemyKilled(battleType);
             QuestMgr.Instance.ReportAction(QuestAction.KillMonster);
         }
 
         public void ChangeBattleType(BattleType type, string sid)
         {
+            if (IsChangingBattle)
+            {
+                return;
+            }
+            if (NowStage is RoguelikeStage pending && pending.State == RoguelikeState.RewardPending)
+            {
+                return;
+            }
+            if (type == BattleType.RogueDungeon)
+            {
+                Currency ticket = (Currency)Enum.Parse(typeof(Currency), Table.GetString(TableType.Dungeon, type.ToString(), "need"));
+
+                if (!int.TryParse(sid, out int level) || level < 1 ||
+                    (long)level > (long)PlayerDataMgr.Instance.GetMaxStage(type) + 1 ||
+                    PlayerDataMgr.Instance.GetCurrency(ticket) < 1 ||
+                    !CurrencyReward.CanGive(DropCalculator.DungeonClearReward(type, level)))
+                {
+                    return;
+                }
+            }
+
+            IsChangingBattle = true;
             SceneMgr.Instance.OpenLoading();
             IsInit = false;
             IsEnded = false;
@@ -122,6 +181,9 @@ namespace Game.Battle
                 case BattleType.GoldDungeon:
                     NowStage = new GoldDungeonStage();
                     break;
+                case BattleType.RogueDungeon:
+                    NowStage = new RoguelikeStage();
+                    break;
             }
 
             StageLifecycle.SetInfo(sid);
@@ -155,6 +217,7 @@ namespace Game.Battle
             InitUnits();
             StageLifecycle.Update();
             yield return ChangeIsInit(false);
+            IsChangingBattle = false;
             SceneMgr.Instance.CloseLoading();
         }
 
@@ -227,8 +290,8 @@ namespace Game.Battle
                 { 
                     if (!IsEnded && StageResult.IsEnded())
                     {
-                        StageEnded.Invoke(NowBattleType, StageResult.IsClear());
                         IsEnded = true;
+                        StageEnded?.Invoke(NowBattleType, StageResult.IsClear());
                     }
                 }
             }

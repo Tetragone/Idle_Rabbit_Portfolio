@@ -4,13 +4,15 @@
     {
       "source": "Assets/Scripts/Battle/BattleMgr.cs",
       "destination": "Code/Battle/BattleMgr.cs",
-      "source_sha256": "dc2fae05f0f4736c1afd3aacd8138d7addbd900a887800e2aefed0878b03ee14",
-      "change": "원본 통합 테스트의 관찰 코드 제거",
-      "export_sha256": "72e1969cb5b4e7606951c93928135c739ed1184a69faf7143207dd95ef87e088"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "b103a152856c3c16fe2daa94eb3acd3fcfab435f866a927aec5f53b145fcf142",
+      "change": "로그라이크 추가·연결 변경 반영; 원본 통합 테스트 관찰 코드 제거; 개인 검토용 질문 주석만 제외, 실행 로직 유지",
+      "export_sha256": "6d9ccea8bf2da78f2a9aaa517f414fb0bc71eeb5c8305a0cb9136ade1ce07d3e"
     },
     {
       "source": "Assets/Scripts/Battle/BattleMgr.cs.meta",
       "destination": "Code/Battle/BattleMgr.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "a73458b451c47994c4fb06047fad9fdd9bb73a4046425cb36fd00a788fc87a24",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "50cafb59e05569547c718f17c472640d75da20938d806ac257c40ea6015b347e"
@@ -46,13 +48,15 @@
     {
       "source": "Assets/Scripts/Battle/Missile/BaseMissile.cs",
       "destination": "Code/Battle/Missile/BaseMissile.cs",
-      "source_sha256": "d0657acf2bd28dec66d9dc6c10fa115d5b4d37cfeabf4f50a4e41447ed147d9e",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "61a364f730d23db97373e623dbd17d04d585521ba9a3fe4777d4ebb772de04bc"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "c1b289fc470c1b922b65d40e821b5e7ebf0d57d720cd6ec013c997035984f7fa",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "51627356f96e052ec5d09f0a76dc72de0be1d7643759f107d7987eeabdb864d9"
     },
     {
       "source": "Assets/Scripts/Battle/Missile/BaseMissile.cs.meta",
       "destination": "Code/Battle/Missile/BaseMissile.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "0e35a6634a6ac070cc8b78f3c6e27c80e79df437bf8141f26c6cd52b0092b95e",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "1f98e2694f0bed475efe70b973cbe494f611c675f9adcbe6c968718998e8e448"
@@ -60,13 +64,15 @@
     {
       "source": "Assets/Scripts/Battle/Stage/BaseStage.cs",
       "destination": "Code/Battle/Stage/BaseStage.cs",
-      "source_sha256": "62266aae4707cfec3b04c0a6499ce0b7849f561202051a72fe791c17b163bf22",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "b6252e195658130879bdd9e19b3b1cd6b2b65ba52b2a4785285cfa35e86acd29"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "446c80f10ed0557c6f56c44e3706a3e92ccc61116c0891db26dd7827d1efdf96",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "1fd0eafbcd2eb46523b9928383f0ac6bcf63d55bfc7320d597c0fd45afdeabcb"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/BaseStage.cs.meta",
       "destination": "Code/Battle/Stage/BaseStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "29320e03d145c52d623f81023b4ece8b94891197d21124160628f00ee9077b96",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "bc52ff8c03bb1c08fac71cefd201f748406ddb081388ba3cb49cad4e4c96ee16"
@@ -74,13 +80,15 @@
     {
       "source": "Assets/Scripts/Battle/Stage/ChallengeStage.cs",
       "destination": "Code/Battle/Stage/ChallengeStage.cs",
-      "source_sha256": "5f4269c6add9b09f189ca50ccf60febad12d4eea68b27a535e8da297cc9a8607",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "398750425e7d1dacfefc41fdb284e161bec252a274e8aa1aa65db5789f18d375"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e62ba0a6508194f0e4a7173dd43c1d01d023c33614e3d88d8c7b5eb01ecaf847",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "d0bd633a85143f47168f2d3b6dc4e122680c17d85c8508faacb1a796cdbbaa11"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/ChallengeStage.cs.meta",
       "destination": "Code/Battle/Stage/ChallengeStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "0552e5ddb78c4365d4227a44ad30948b4429dfa3453bdc5de0530322590256e5",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "3fb4e0da56c050e4aefd83ac412c62ec8e7c8f0653661e3fcc4e5baef558e31b"
@@ -88,13 +96,15 @@
     {
       "source": "Assets/Scripts/Battle/Stage/ChapterBossStage.cs",
       "destination": "Code/Battle/Stage/ChapterBossStage.cs",
-      "source_sha256": "33a7d21390c8173cb6fa97d87959bcd32c4a77cfe1b8288c523257b0d4053703",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "6860c9eb5aaf8e7861ac50cd72bb554de96119416f45220735a7f45ee7654f4a"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "4349638ee4015747e0c70f8146f3624ac33e8e1ee9a49565d460f96dbd29265c",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "a91d83a31ff6f7b3931ae6f3ceb0993ecc286d174fb618a1df34af67e8f6c424"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/ChapterBossStage.cs.meta",
       "destination": "Code/Battle/Stage/ChapterBossStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "e68423f343efe3e41e079ba02097817498bafd35bbfce1a5aa3c7ecc71aa9dca",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "de3959e9c51a8885d716662b60e470a676762d9bffa30412b0783a9cfc2ec25d"
@@ -102,13 +112,15 @@
     {
       "source": "Assets/Scripts/Battle/Stage/GoldDungeonStage.cs",
       "destination": "Code/Battle/Stage/GoldDungeonStage.cs",
-      "source_sha256": "0d9334b4e82fd35e066f16d5cb7e9bde60cf62a35de9609fb7672dd8787a5530",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "a2e6bf00b5b502c6bc8f98f98549fe83a311904ee0252e40f5a0615af5b58078"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "b9fc29d6a86fe181387de15cdaefe17f8157f8bae8e83a9eff8cf466826071bb",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "b3b2b5124fd26ca5b4cb58c0e43cef2f6d49a43f65c82df048d92c70c42a48fe"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/GoldDungeonStage.cs.meta",
       "destination": "Code/Battle/Stage/GoldDungeonStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "4e9c1eb66957bde9e06987bff2de3d4594251150942e84f3f35e69dc18b13231",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "7ecb721a1db3668e9159aeaf2863958dc98ca56c965dbe23146f95be55f200b1"
@@ -144,13 +156,15 @@
     {
       "source": "Assets/Scripts/Battle/Stage/IStage.cs",
       "destination": "Code/Battle/Stage/IStage.cs",
-      "source_sha256": "b932cbc65629fe2a8707a7a623ebdbc3a5921e38ae0916194630e049f5407aa7",
-      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
-      "export_sha256": "6fe67304907203ef0e2b871a5c5227b05250f8ceb8143860e1e2ececae99f021"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "0f3eb68e86cfa4c7119309bea3df721056e9fd99a5c87e339215402ae0b3d26f",
+      "change": "로그라이크 추가·연결 변경 반영; 영문 주석을 한국어로 변경",
+      "export_sha256": "2ad200ddbc0dfad6274033d03312e389565e077287337cd9d94de35f878ed4b9"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/IStage.cs.meta",
       "destination": "Code/Battle/Stage/IStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "3d1166301846038180e4fcb1eaf0d74b208db220b2a072dd67c2cbd3c3dc81ea",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "3d1166301846038180e4fcb1eaf0d74b208db220b2a072dd67c2cbd3c3dc81ea"
@@ -200,16 +214,50 @@
     {
       "source": "Assets/Scripts/Battle/Stage/NormalStage.cs",
       "destination": "Code/Battle/Stage/NormalStage.cs",
-      "source_sha256": "c47bcfbc69e199d19200884c38cadeb5450bd50c1c7ca5a5ed0284df54470275",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "cf7c3290be612c446e919486c5c34876987037dbf00d93447cb23fa8dd96b06d"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "3f5e5165ac8322774feb26c10fa76e83408f609c68eca5867de34b0cd3d81318",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "ff831ccbcd5f871113ce46fceee198536913b92d281b7a27d3b8e4cd67c5fde0"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/NormalStage.cs.meta",
       "destination": "Code/Battle/Stage/NormalStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "382d71792f0c6b9b01178d07a5158c36cc2a1b699d596c9ad5332e6837058da2",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "a5b1b824a29ea9b0b4dfbec4aa749f538198b524581727639268d62fa8549f59"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/RoguelikeStage.cs",
+      "destination": "Code/Battle/Stage/RoguelikeStage.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "8cdd663d1dde63cf4cbcddea7e895fb45a666b283c60a00a79f9f391230f439e",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "8cdd663d1dde63cf4cbcddea7e895fb45a666b283c60a00a79f9f391230f439e"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/RoguelikeStage.cs.meta",
+      "destination": "Code/Battle/Stage/RoguelikeStage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "5f658fe8ee21e8bcb5cadac1e3374b12525137f113a5ccefa5d7130bafb37840",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "724a52510267820c0bc25a3b49413b3e97c6c6f80e9b656cd2d305c8b1cd18b0"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/RoguelikeWave.cs",
+      "destination": "Code/Battle/Stage/RoguelikeWave.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "b9e9882cb381c5216d14501c4c8bbaca98388c9de2fe5a880cf2d0ea2ebdfbe3",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "b9e9882cb381c5216d14501c4c8bbaca98388c9de2fe5a880cf2d0ea2ebdfbe3"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/RoguelikeWave.cs.meta",
+      "destination": "Code/Battle/Stage/RoguelikeWave.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e082189b0c9076f5f01f0be8a1d65661f00b7cfb03fb2b1efb67db3bb257378a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "1d72ecc9e7e644c46dde1526da5cd912fb9c85e87820370c03b684cbd28812ba"
     },
     {
       "source": "Assets/Scripts/Battle/Stage/SingleSpwaner.cs",
@@ -226,15 +274,33 @@
       "export_sha256": "25856e261b505404b33a3798ededcd7ac9ffbd652cc112d93614cf3ef45661c5"
     },
     {
+      "source": "Assets/Scripts/Battle/Stage/WaveSpawner.cs",
+      "destination": "Code/Battle/Stage/WaveSpawner.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "11e9cb4103751e6ba140a6db26064824b5af36283b653e2998d0798eb0b33bc9",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "11e9cb4103751e6ba140a6db26064824b5af36283b653e2998d0798eb0b33bc9"
+    },
+    {
+      "source": "Assets/Scripts/Battle/Stage/WaveSpawner.cs.meta",
+      "destination": "Code/Battle/Stage/WaveSpawner.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "40f97ce4d0ea1d04eed4c8c2bc0f743cc87f7a7959669e3be89c6d7ed551c082",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ec02c75ea991fd3fe9e27720170d93f1613a1ddf62dc961698ef56090504e8ae"
+    },
+    {
       "source": "Assets/Scripts/Battle/Units/BaseUnit.cs",
       "destination": "Code/Battle/Units/BaseUnit.cs",
-      "source_sha256": "c616cad2080b51a3979009ad204e725e8f787f2cb812a3a96617fa5b5c4aedcb",
-      "change": "원본 통합 테스트의 관찰 코드 제거",
-      "export_sha256": "40d39c49269c2a3ecbf24b6a2848dd30027a8a8cf2518f05a46b9a9aab14a5dd"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "361991e2d7e45344a17207ac6eb49c643922b7e232122aef19c8ae731e03b59d",
+      "change": "로그라이크 추가·연결 변경 반영; 원본 통합 테스트 관찰 코드 제거",
+      "export_sha256": "3805aa0c1c45c7af14bda72aa532faf8b72656a18556c0ac0db1655bc153c647"
     },
     {
       "source": "Assets/Scripts/Battle/Units/BaseUnit.cs.meta",
       "destination": "Code/Battle/Units/BaseUnit.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "92e054e30bba6665c83786e652de5f94b0679d3e8452db2d4d206413260c8fd0",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "9fec2b1e916118b990381803b13036b8d3efee96e07988f82c280d1870429961"
@@ -270,13 +336,15 @@
     {
       "source": "Assets/Scripts/Battle/Units/PlayerUnit.cs",
       "destination": "Code/Battle/Units/PlayerUnit.cs",
-      "source_sha256": "750c1b6e4197f00672897a41cc944e380b3183eef496a3bb24ed1fe6163d1f7c",
-      "change": "사용하지 않는 외부 Firearm 타입과 using 제거",
-      "export_sha256": "76ddc6fa3f6d77ba8a63aa9ad3c6e6da2160b75cf90284370cd70a0c0da1f3a4"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "238c82019f1eaad55b3a0b193dfc8e2cb513a26697f114f594ce0681ff889bea",
+      "change": "로그라이크 추가·연결 변경 반영; 미사용 외부 Firearm 필드와 using 제거 유지",
+      "export_sha256": "153ff82d41ee1eb2d800360d0774bd8551f4992b88b6a88d5436c11bad0adf26"
     },
     {
       "source": "Assets/Scripts/Battle/Units/PlayerUnit.cs.meta",
       "destination": "Code/Battle/Units/PlayerUnit.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "db63595fb959617fb3d8f7ea717a573aca97af8e7802ee32bc644915dec5aa38",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "ca28d775d0a4a117d0755f4bf301cbbe84f5ccd97bb6379b217da5db87696254"
@@ -312,13 +380,15 @@
     {
       "source": "Assets/Scripts/Calculator/DropCalculator.cs",
       "destination": "Code/Calculator/DropCalculator.cs",
-      "source_sha256": "4fb3df69b65f67d81835f04b59a908ed78f20f197488f9761f67ba8d8af0d707",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "f60abae71d660e0e9edd6c8a0ef4a15a7acbac3e29ba1f90b47717b2564ad898"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "f419a0fd38942ec3925de386d0ccbfe55acc85363ad0c556b055a9f2df670390",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "a2d6fdbb5c551fb78be8ccd25714a02dab4715f21748c9ad29119bb8c5b434af"
     },
     {
       "source": "Assets/Scripts/Calculator/DropCalculator.cs.meta",
       "destination": "Code/Calculator/DropCalculator.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "0b0e33401e8c103cfd0d638304834bceb9efa7cf4d28ba6895947de205a158d4",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "892c400c0387e47d546e0f99073999efb840af84fc496802c4531a243d34e2d1"
@@ -368,13 +438,15 @@
     {
       "source": "Assets/Scripts/Calculator/StatCalculator.cs",
       "destination": "Code/Calculator/StatCalculator.cs",
-      "source_sha256": "1ed5fc43a9da2edbe23b1ca77eb0320bde7acff87a820f53197c443dac42d848",
-      "change": "코드 유지, 줄바꿈만 정규화; 영문 주석을 한국어로 변경",
-      "export_sha256": "3111fd3a1132a7cc0d35b4678ddae444b6fbdc2d56da081cd0e37996818df773"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "fa9a1e73dce88d049b4e68199e356c43cd3cf12e15c6cf7af68073c29a6b2d5e",
+      "change": "로그라이크 추가·연결 변경 반영; 영문 주석을 한국어로 변경",
+      "export_sha256": "c90db58b938546de1df990bceffcfe96578385a7f56ad5a03358a42276d128aa"
     },
     {
       "source": "Assets/Scripts/Calculator/StatCalculator.cs.meta",
       "destination": "Code/Calculator/StatCalculator.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "c666544542fda3ac067a5ad4fdfeec5af28bb9b49f2045adfa53068241cd99ed",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "9786cc77ab07ad79926f1f26fca1ecb903c31e02d74009b2dfa69a2f09c49048"
@@ -382,13 +454,15 @@
     {
       "source": "Assets/Scripts/Common/Constant.cs",
       "destination": "Code/Common/Constant.cs",
-      "source_sha256": "246d20a29f7bda3665a088740bdf4a2963fff62ed85fc8514ce190d19238ddb8",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "2daedbc72ee030705885668b9a2df7b02f6ce4ea97c00b601cb5a7303d4b4d62"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "5d4cf46a7d5f0a59aa75e9e2b3aad03d2ee84c40c2f02dd2a7aeadb93e96559f",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "896d9f05e3ad4c77862d6a7a8fc9f10277381bc2a1ea45e09769a9d7f86d31b6"
     },
     {
       "source": "Assets/Scripts/Common/Constant.cs.meta",
       "destination": "Code/Common/Constant.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "067ea4a17a5fa8de86560a5dc2951735ec8cad41abe84e2e65ac1bd9a4bc6f6b",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "c0f84d19ecd5d0e5bdbdc7fff2fb0f1714de35b134f8cbabfe29db6285dce78d"
@@ -410,13 +484,15 @@
     {
       "source": "Assets/Scripts/Common/Enums.cs",
       "destination": "Code/Common/Enums.cs",
-      "source_sha256": "fe02cb93cc675f6ad2c741be99d6e794090b4c72794c7f507821574013194f29",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "09cbfad1ed8c6d23147140d70e0722139cca523ceb360e7482318fbec49cf68a"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "b4aff74a678a63dcbb59d1620dfdd4e4f5ecfb90af1d7717b40056741c4b37cf",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "39fc28ba1726e0579a0cddc7f701ab6d615f35eebf0303b39c433421106be88a"
     },
     {
       "source": "Assets/Scripts/Common/Enums.cs.meta",
       "destination": "Code/Common/Enums.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "a7c09124b530bab215c86b2676310563fa1875b4209ef9e790dec32ae85d05b3",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "dc65450d4c95c9e8ed096bf4c7ea560f1489562c31b5ce808a5e7a66897c5c85"
@@ -774,13 +850,15 @@
     {
       "source": "Assets/Scripts/Data/Table.cs",
       "destination": "Code/Data/Table.cs",
-      "source_sha256": "3f14e1db619d70857d8429f446fefd7aa609e8d32e8e7a195ae47eea9e453dba",
-      "change": "외부 CSVReader 호출을 명시적인 테이블 공급 함수로 대체",
-      "export_sha256": "cbdf2e0cd253c79214d6ce74596bf87401244a9bfa2538688fd73737cb46a618"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "849786c1834ec5d099c585cd8d616c1eb728d4799c9147b99d7fdcb0e0cde5e0",
+      "change": "로그라이크 추가·연결 변경 반영; 외부 CSV 파서 대신 ReadSource 공급 함수 유지",
+      "export_sha256": "074b9ddb5311663b913833ee6f354ee19338be7ea829dd2450345c08db8db224"
     },
     {
       "source": "Assets/Scripts/Data/Table.cs.meta",
       "destination": "Code/Data/Table.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "fe2201fdb6a44e541ed597aece44f96b4bb36d544075f69cc8198629a93ec3f1",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "7d7dab1cafaa16279b9a6904da0b4fc6bac5c1f0e339a5772698ecc95fa55039"
@@ -1150,6 +1228,22 @@
       "export_sha256": "02b868cfd84b641dd992005438351ea4ce0e459d7b1b6ec9227d9a09f5fc50ef"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/Battle/ActionPopup.cs",
+      "destination": "Code/UI/InGame/Battle/ActionPopup.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "2c2fa64b7cec323f762e7067a8c084d8fd749212b3ca6979df5bfef9c6ce5e42",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "4b721e842606fc391b69dbdc0e5bb9425819999cae87c3f502437ccb33584254"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Battle/ActionPopup.cs.meta",
+      "destination": "Code/UI/InGame/Battle/ActionPopup.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "a7850f37162e2c5fe2c4ccc98bb56e5e392c2df86119790c15a99261fdf10540",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ea88c077e9028763d5304026f7f041c88b7942587935cffae38e697aa58bf873"
+    },
+    {
       "source": "Assets/Scripts/UI/InGame/Battle/Icon_MiniUnit.cs",
       "destination": "Code/UI/InGame/Battle/Icon_MiniUnit.cs",
       "source_sha256": "5dcffab2eb9450db824e1be72142c4402feb254ba8bf8b980b7a9f595207bf1b",
@@ -1234,6 +1328,22 @@
       "export_sha256": "dceb582c034992e4132324d3aa5428a84c883adfbbc8fc0278c5766e5bfbd468"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Dungeon.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Dungeon.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "7504f33fb9e266d5bfc27f53e810ef0d02322575ddacb93454ff41b12ecc3167",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "327f6cc2e715a62fcf11151ba8b65a54aa1f29fe3969b0b918ecc834b074e01a"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Dungeon.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Dungeon.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "b18eeb97c79da92b78a755d7f050c4a5faf6a8bcd77089dbeb942b53fde7042a",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "9a7f03d5559726dbf368d7ccdafbdff709c1ebc6cf03f80814b26e13dce293d4"
+    },
+    {
       "source": "Assets/Scripts/UI/InGame/Icon/Icon_Equip.cs",
       "destination": "Code/UI/InGame/Icon/Icon_Equip.cs",
       "source_sha256": "da7d8dc4541a3e3d9820ac71c9d7c891305f1b3845748af3ee53e8953afbfd35",
@@ -1262,6 +1372,22 @@
       "export_sha256": "f867e6540a4c25ca1b15906296fb89617476bdaebff20c965a57d5dc3086e19f"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Mob.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Mob.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "cdb83fce2231da502ae2318c2fecdc455ffa8c7ea02cb9b2406c497e003f2455",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "aee5817f9bd0af37481f00b56c061a238b9b56b453452ae9f19bfa1fe9991881"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Mob.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Mob.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "f349a841d29271284410e9c017fb239a8fa4d2d0bef70b326cf1a26fea4e20a5",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "5ee88381527cb19556352623bf54a819306aaf3aaaa116c9920e41bdab331c04"
+    },
+    {
       "source": "Assets/Scripts/UI/InGame/Icon/Icon_Quest.cs",
       "destination": "Code/UI/InGame/Icon/Icon_Quest.cs",
       "source_sha256": "55671f79918bfedb7ed17f78d1f2a5e48aeaa3a328182c3e31eb606889292e81",
@@ -1274,6 +1400,22 @@
       "source_sha256": "328b2ed01a834f87355613e8c423c8696fcf602e2a7c34c99ecf3bfd8f2bb1d0",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "328b2ed01a834f87355613e8c423c8696fcf602e2a7c34c99ecf3bfd8f2bb1d0"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_RoguelikeEffect.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_RoguelikeEffect.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "247b71ce1f7b5cfbc950663fc9782a302b7eb2612c5782c9c745a6faaf59d82c",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "247b71ce1f7b5cfbc950663fc9782a302b7eb2612c5782c9c745a6faaf59d82c"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_RoguelikeEffect.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_RoguelikeEffect.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "fce5c0e77a44e505e9aea0d5ab44b05e380e533c3d51905cdd6601ffd32cfc07",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "266e4ea4eec1cbe8e0162500991ee71cfee1a40a7a6dda0973e82ade66244fce"
     },
     {
       "source": "Assets/Scripts/UI/InGame/Icon/Icon_Shop.cs",
@@ -1318,6 +1460,22 @@
       "export_sha256": "13c4b0152dffaac10762645490c4becd6987c6814ebdf544036a07ddbb763748"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Stage.cs",
+      "destination": "Code/UI/InGame/Icon/Icon_Stage.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "a1eb34cad907b5644189497665e470469593a5d4aa3635c674b914546359f244",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "b903fc26745c778699a4b350207be4b4bf5735a172cb966e08d7ea8e7aae55f6"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/Icon/Icon_Stage.cs.meta",
+      "destination": "Code/UI/InGame/Icon/Icon_Stage.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "f546b077ce44eeb0c03f5737139058d1a3dd56fdefd945deb3296999609de618",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "135a79ee5437bb24f95a085b6aef50c6316dec93209f67d4fc8d8f3c54a44c2b"
+    },
+    {
       "source": "Assets/Scripts/UI/InGame/SubUI.cs",
       "destination": "Code/UI/InGame/SubUI.cs",
       "source_sha256": "47a67625959543a360fe5e2f6bfae021d130a567b2d3f10dae7737c23afdeaa9",
@@ -1344,6 +1502,22 @@
       "source_sha256": "2e7561d44ae4bd7b36462ec7fb0149412bf491f2c0b6575e9b220fef9307df7e",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "4affa80e2d3d30a383838cc199b9cbdb7dc1d8bcb9294d9651cba30c49e61979"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Dungeon.cs",
+      "destination": "Code/UI/InGame/UI_Dungeon.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "189345b99553d1b0e206e6fc75085774e36958104883e8c935ca98cfb4e49463",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "53c82854a0d81eb035394a8dea07eca71cd0fd0b56d25f2fb3d9d3e3d54a6d3c"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Dungeon.cs.meta",
+      "destination": "Code/UI/InGame/UI_Dungeon.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "52e4f4c82a3e927035b5ab378ee8294f14ba5273b39bcb34e7ae57a3b0227fd1",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "df51d9942b1991486bb6603b9ebf22548852f1fa832a5d6e9cbdd096e175d506"
     },
     {
       "source": "Assets/Scripts/UI/InGame/UI_Equip.cs",
@@ -1416,6 +1590,22 @@
       "export_sha256": "29adc2134ccd2cd79156cda03020a4a99532695f2564bcc15be1430c8bf23c73"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/UI_Game.cs",
+      "destination": "Code/UI/InGame/UI_Game.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "ea1555ec2495d43377b55470d412b6c5b64f601a36af333d9ebe3edffea963b7",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "ea1555ec2495d43377b55470d412b6c5b64f601a36af333d9ebe3edffea963b7"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Game.cs.meta",
+      "destination": "Code/UI/InGame/UI_Game.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "dbd5058990a51df3f7931bc9eb8885fd64738be0432fcf591304753096044319",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "2dcabbb5f7001ff399170f6f9f351ed7f575c2a5c8b72765df2488207cbf0f88"
+    },
+    {
       "source": "Assets/Scripts/UI/InGame/UI_Gauge.cs",
       "destination": "Code/UI/InGame/UI_Gauge.cs",
       "source_sha256": "04212519e108c0cfdc6333b27c4808718da57ca0eeb345f6b2e0f12ef9bc8aa1",
@@ -1428,6 +1618,54 @@
       "source_sha256": "f129a2ebf9d4c2892f761a66511c468cb6a1d6a25e01a2297c24f6c18770663f",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "fc67552dec064ce4a89fbe6ad2e9af445a20e2ee22ec5c88aa461dd6cc30fd6d"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_LobbyQuest.cs",
+      "destination": "Code/UI/InGame/UI_LobbyQuest.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e0f259a3e8a1a8e9dd21de27026deca28e515834b38047ef43b6de8b5e7c8d2a",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "e0f259a3e8a1a8e9dd21de27026deca28e515834b38047ef43b6de8b5e7c8d2a"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_LobbyQuest.cs.meta",
+      "destination": "Code/UI/InGame/UI_LobbyQuest.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "26e660dee84d41a9b17791213fa5e4cbf756c3b60331d62cf4e296185da1a466",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "778d5e69c94c1499e64e1a55cd004e286ec55647698ee89af52cb9f04a4324de"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Menu.cs",
+      "destination": "Code/UI/InGame/UI_Menu.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "fb324ff343be0f173656a333aa94c08f02f25a36eb165e01ded4ee2aa4984a26",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "0977ec9b28aa1c889862016fc261889ec21e7dad41972e896546c434a7d5d862"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Menu.cs.meta",
+      "destination": "Code/UI/InGame/UI_Menu.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "ee161ac40cee2ae7ff39906f0dad7060dcceee4378821e20b0ab154049a33bc2",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "0f199dfc29b97eab2db992374559ea76921006d231ceca9094e16354a2937d90"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Quest.cs",
+      "destination": "Code/UI/InGame/UI_Quest.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "70f6e44c511ef22e200b5dc9b989c6703266e6f232c95496cf318942ca2f8d6e",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "70f6e44c511ef22e200b5dc9b989c6703266e6f232c95496cf318942ca2f8d6e"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Quest.cs.meta",
+      "destination": "Code/UI/InGame/UI_Quest.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "d871a59523903e67fc512496a80491380706fc4ec442ef3042d53acb70b97f8e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "d871a59523903e67fc512496a80491380706fc4ec442ef3042d53acb70b97f8e"
     },
     {
       "source": "Assets/Scripts/UI/InGame/UI_Shop.cs",
@@ -1486,6 +1724,22 @@
       "export_sha256": "ae3ab763e571330373c83ff9797cfafdfece7b00b98cfd53c9257cb0d49a7298"
     },
     {
+      "source": "Assets/Scripts/UI/InGame/UI_Topbar.cs",
+      "destination": "Code/UI/InGame/UI_Topbar.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e278b7a049a974bc1470ea0eac81d3cf0ae6ec0b818d6a7c2fd3ba447c9e0df1",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "45516af719c4e26838134df2f21f5333fb839ee5a85c6743c5474906902875a3"
+    },
+    {
+      "source": "Assets/Scripts/UI/InGame/UI_Topbar.cs.meta",
+      "destination": "Code/UI/InGame/UI_Topbar.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "d03b27d551cbd272741ec5f271eff1a43f6bfedea3f27eb39d9c1949497c64b0",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "ae24a79b1ab02eb4b74a4677702a3615f24e24fd0ea34ae4e8a2652f2afac522"
+    },
+    {
       "source": "Assets/Scripts/UI/MyLogger.cs",
       "destination": "Code/UI/MyLogger.cs",
       "source_sha256": "6896563e11fb48b5e3fb041d569e4cf2119c8aeac7ae88cf55d5f7d1619f78ca",
@@ -1502,13 +1756,15 @@
     {
       "source": "Assets/Scripts/UI/Popup/BasePopup.cs",
       "destination": "Code/UI/Popup/BasePopup.cs",
-      "source_sha256": "6c2eba865d2181a780bae8c88725c9e0ac4fb42f9c99144d1d349f1d92a705d5",
-      "change": "코드 유지, 줄바꿈만 정규화",
-      "export_sha256": "2da818fe70aeee7b0bfbefd3fb22e7ae4f6553e5ca02e4d2ac377f61c5059119"
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "7dfd08fe9801a0c484c151321c7c39ad2340ac89dbe38eaa058b92459f6d1e23",
+      "change": "로그라이크 추가·연결 변경 반영",
+      "export_sha256": "ababdb73d07cd6a34f7d07dce989f3a2b0872b4ec9364d77d74bf3abc01c9f5e"
     },
     {
       "source": "Assets/Scripts/UI/Popup/BasePopup.cs.meta",
       "destination": "Code/UI/Popup/BasePopup.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "6f4687741187c44d4107df4fe9a66c97f8c9639aa91541ba8330c791c9a529f0",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "7851deac5a7879c9f2fbbc0f80c21e2476b9eac802936e3dafd0bbd34f00df5e"
@@ -1612,6 +1868,22 @@
       "export_sha256": "599cd15cc7dbe2eb0caf2721526fd6ee99492c9dbb9146a42ef677f6ca20bcfb"
     },
     {
+      "source": "Assets/Scripts/UI/Popup/Popup_RoguelikeSelect.cs",
+      "destination": "Code/UI/Popup/Popup_RoguelikeSelect.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "5e2cf889cd9be23423f0795cf65671c96edb7cfd5e79b1699f9408390680add5",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "5e2cf889cd9be23423f0795cf65671c96edb7cfd5e79b1699f9408390680add5"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_RoguelikeSelect.cs.meta",
+      "destination": "Code/UI/Popup/Popup_RoguelikeSelect.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "ef7bdb106460e112f896d8fa1366f01e0de928845a4c830854052471f0fc3bb7",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "6ec246ff39fecacb93ae7c2296ee1b64cf73d6b2e8b73408268e16c088b81210"
+    },
+    {
       "source": "Assets/Scripts/UI/Popup/Popup_ShopConfirm.cs",
       "destination": "Code/UI/Popup/Popup_ShopConfirm.cs",
       "source_sha256": "96cae682da6cbc1f5c6d7e7409e2565d5859d389fd4e509315e8b2c01659dde9",
@@ -1624,6 +1896,38 @@
       "source_sha256": "12b93653a02e6a531bd8452e57f59fa109e36ebc727c669709ae0b4091e0fa67",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "995be138eed36a13e74986025fbb3a0b16290b85c24d75982168a561f1408e78"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_StageSelect.cs",
+      "destination": "Code/UI/Popup/Popup_StageSelect.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "498530a8244371c824cb8456294c5ee55b925fb8a7d71951e9a4a708ddb1da8d",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "76da46e4220d80f179b8974ffadde04a49f351865389aa8ad6d5476f29f4a015"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_StageSelect.cs.meta",
+      "destination": "Code/UI/Popup/Popup_StageSelect.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "418b1fd56780345130b59490c7fc13555e85ccdcc41794113485b6c7e18d7b6c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "186410174f25cf710a321b2b539068ebbc9da8419f594a42c6195c07c6016ad2"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_WipeOut.cs",
+      "destination": "Code/UI/Popup/Popup_WipeOut.cs",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "69dfe0f09598df779470c730bfab098d6273a9d87d06c54834f98b3853323828",
+      "change": "로그라이크와 필요한 자체 연결 코드 추가",
+      "export_sha256": "2ff241440e8eac4badf4317b17df35ff5da34ac4a58ee6860dfb67dad97d7082"
+    },
+    {
+      "source": "Assets/Scripts/UI/Popup/Popup_WipeOut.cs.meta",
+      "destination": "Code/UI/Popup/Popup_WipeOut.cs.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "30153d32e44181df99f2cc1b58a47484016d13e718c6b32f254c68c1751df99c",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "13035a95cb3c84829505e85f2b43d9b894015c40feb101712715234c43a2e4f5"
     },
     {
       "source": "Assets/Scripts/UI/ToggleTextSet.cs",
@@ -1668,18 +1972,20 @@
       "export_sha256": "5bd1ad25882a46bf2cc95470e0a6f0aa623abfb7227c61608cb4ce058a9e6ff3"
     },
     {
-      "source": "Assets/Prefabs/UI/block.prefab",
-      "destination": "Prefabs/UI/block.prefab",
-      "source_sha256": "e5f3251979df63b90b92cc7c384e86a096f8dd3fa1be3e7bf63c080747db4dbe",
-      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
-      "export_sha256": "e0378183805f46e36bcd33afe9d89a975c4cd610d8b02bcee5c6c294e3e5c23e"
+      "source": "Assets/Prefabs/UI/Icon/Icon_Dungeon.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_Dungeon.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "cce9cce34ce44b78df78d556ff5259aefc0f571972c68a6e082035a670192569",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "cef8fce8f42a748598503e39a98da87338cdea57632a93533633ff41fd0bdcb0"
     },
     {
-      "source": "Assets/Prefabs/UI/block.prefab.meta",
-      "destination": "Prefabs/UI/block.prefab.meta",
-      "source_sha256": "4c4d84c2ef237c9b83bfe3b053a7e96e5a49296fdde77ce96fe4a712cb4b8b5e",
+      "source": "Assets/Prefabs/UI/Icon/Icon_Dungeon.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_Dungeon.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "61cd60adebfd790535be8f604c1b7faab81f1cf5ce67b2a4728da49e9cd35426",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
-      "export_sha256": "46317d5b3b0c4f6512fc25128d88eb37e1a7a87fb7a996ce5d613ecc286eba41"
+      "export_sha256": "6ef49a4ec308186bcda07f3aa3e9f2b473cf642a09386b680705f501deec0daa"
     },
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_Equip.prefab",
@@ -1696,15 +2002,33 @@
       "export_sha256": "5ffc8508343d928c6a15e69e5e0b27479ef2bde589dbb9b6506f5d1f48cc7f94"
     },
     {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Mob.prefab",
+      "destination": "Prefabs/UI/Icon/Icon_Mob.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "cdcd20298c5f336e594a2672bad8ed99795952f6c62f4e086d658d1326d36389",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "791380cfbb6822f06d2c69fd929e0d353f76ae22f5cb4fb93a358af04971e1d8"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/Icon_Mob.prefab.meta",
+      "destination": "Prefabs/UI/Icon/Icon_Mob.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "294ed4e46fb76d766ef86aa15f46b579a14be4b3ca2e9aec6b6c9e761a74e054",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "f0239a36c050b0639e4ffcf61fe11bdf27f6e23f7aee53643be587e102020255"
+    },
+    {
       "source": "Assets/Prefabs/UI/Icon/Icon_Quest.prefab",
       "destination": "Prefabs/UI/Icon/Icon_Quest.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "cca4513bec1eb738c02ad94f929fa591c63fdf3b50bd33894556ad2053206c3b",
-      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
       "export_sha256": "3b699272da736652cf67f4a2bdf39178ac8b0a46661db1edde1ad9e6b926f16f"
     },
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_Quest.prefab.meta",
       "destination": "Prefabs/UI/Icon/Icon_Quest.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "8bd5d5ff183c076bcbb4c8561680f36327d46faff873933426e39896dabaf9ad",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "164b9a844f18ced48062cdd6e3d92548b1cb10521dcf1d29b639f86d77eecc1c"
@@ -1740,13 +2064,15 @@
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_SimpleItem.prefab",
       "destination": "Prefabs/UI/Icon/Icon_SimpleItem.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "5b87db0cc427d636bc21ff7392d2228b0f9a93af1e53d27db765aa6c32f3cbf8",
-      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
       "export_sha256": "f141e4ff6174c0be80dfcdab57f5fe047bff75847271eaae56cc3d2d850ec19f"
     },
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_SimpleItem.prefab.meta",
       "destination": "Prefabs/UI/Icon/Icon_SimpleItem.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "1e111c236cc657691e57651f003c11672cd03418e3437ef15909c8724c98ed2a",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "6f6e73a75b4276b4a15fca93094dc70e3854699ee5951cf4d72a84e991e12e57"
@@ -1768,13 +2094,15 @@
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_TopbarCurrency.prefab",
       "destination": "Prefabs/UI/Icon/Icon_TopbarCurrency.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "60d83a28ef57d564104a25c76b857233420124099d0d90a4f5e9d4d99c1b1371",
-      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
       "export_sha256": "51263a6b8e3777558dbb3178cd74a0d3dd868e23a27ffb46b3073a4499044ced"
     },
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_TopbarCurrency.prefab.meta",
       "destination": "Prefabs/UI/Icon/Icon_TopbarCurrency.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "5ae6f9074fd33a05ef3c8b6a9fdd7913b8128511ec65d23ada859b1cfbe761c9",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "a6147e79000b8701d498f5aff1ea2f6df769d7c02c0e37df3a295adc5b381c58"
@@ -1782,16 +2110,34 @@
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_UICurrency.prefab",
       "destination": "Prefabs/UI/Icon/Icon_UICurrency.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "08ec886b4587eeb5055efcfd56005326636097ff59cdc9e7f9a2445938620583",
-      "change": "외부 이미지·폰트·머티리얼·애니메이션 참조 제거; 레이아웃과 자체 코드·중첩 프리팹 참조 유지",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
       "export_sha256": "151eed73232aec7419e1d231a8362873a8fb5e08b85f4fab0a1b1ecf44bccdae"
     },
     {
       "source": "Assets/Prefabs/UI/Icon/Icon_UICurrency.prefab.meta",
       "destination": "Prefabs/UI/Icon/Icon_UICurrency.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
       "source_sha256": "70edf72d207c696d605a5de4ade1a8f08cbfa061171c72ab5c832ec7f402f87a",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "3ff8e9575d7efae5f602af34c07633fcae89a19698c8f180853e9939aa62bdac"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/icon_RoguelikeSelect.prefab",
+      "destination": "Prefabs/UI/Icon/icon_RoguelikeSelect.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e94ee2cc8607a70156e2f2bf11f724440b14c6d77741f44bdb4213de2c7420b9",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "3de735f2c6c3fafe45566790301260e3b9a4c5d74f236c26d4afdc6297c7ddfa"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Icon/icon_RoguelikeSelect.prefab.meta",
+      "destination": "Prefabs/UI/Icon/icon_RoguelikeSelect.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "c07587ed80656660fa0409426d3cb4503864898d3dbb23f493af4d52a373de46",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "bbaa57894f6c2b0de69ef3d81d155af4edc52d9ea122b86c5114e2b4eb7ce6f8"
     },
     {
       "source": "Assets/Prefabs/UI/InGame/Event/UI_EventHuntQuest.prefab",
@@ -1834,6 +2180,22 @@
       "source_sha256": "643dea2d615f1ff1540874a7e91db506def7720567c3f5436875106526d67d05",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "da8a6b1b68cb476253b38c3807334fd10e0ad91b742a7bcd43d2843c1a4bf616"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Dungeon.prefab",
+      "destination": "Prefabs/UI/InGame/UI_Dungeon.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "056e6f6b1b50dfb9c98552ca212925a3e66727ba6468514a8814e947c801199f",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "101fba3e8e161d9a4562a755a4197a3fc2930f55c9004817e19bc86961ea0da9"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Dungeon.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_Dungeon.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "c20638022184d739aba7836e4546b5daa167f88767f0a52c885fedb1325ee213",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "fd0d0f3ca6d026d9b17f9383700d74f548650f9050d0e38aa66d04cbeef16890"
     },
     {
       "source": "Assets/Prefabs/UI/InGame/UI_Equip.prefab",
@@ -1890,6 +2252,22 @@
       "source_sha256": "43e5e12c65c10242735d9aa97f3d2e170cb807535f3872f69a1221a2bd9d852e",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "402c83769d7f63192c44d7236bb3f53889ef1af4e6da0cb795f8ffd52bd44dea"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Topbar.prefab",
+      "destination": "Prefabs/UI/InGame/UI_Topbar.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "6c002a2215c18c81c1224f0989153aa917228924ed12ab7a297bef86b65a6218",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "c5f21aa0e82dc31d461cc85e285d71930dd5c14564e023c378e30150300ae96a"
+    },
+    {
+      "source": "Assets/Prefabs/UI/InGame/UI_Topbar.prefab.meta",
+      "destination": "Prefabs/UI/InGame/UI_Topbar.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "986c376d2a2603cbb73adc498fb235568f409048eeff0f55deb09766b6b98418",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "692fdb21d0beb5905e3df64370411f90b3ae8ae04e233fcd4b3c525988df5a30"
     },
     {
       "source": "Assets/Prefabs/UI/OpDesc.prefab",
@@ -1962,6 +2340,22 @@
       "export_sha256": "3c7c446cb534601e805944d90721b8ecdd0bab5cde8b479146246d7c97817246"
     },
     {
+      "source": "Assets/Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab",
+      "destination": "Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "ab718de9bea752b60a2d2c593b993ec0cdd3208ac33ce84f1e05ceb43b699797",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "8dd40ee8e22d631990579c18cf2120f6ee75d6bd45dee1667e9bacebd2bfbd35"
+    },
+    {
+      "source": "Assets/Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab.meta",
+      "destination": "Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "35bd644e8cd44f9a30147ed93c78a1125489a1c4e7e491e2db7d66888b825085",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "4844623a31c686bc1c3b311b6bc0e7fdf6434b3db0b14963b27e19e01628588e"
+    },
+    {
       "source": "Assets/Prefabs/UI/Popup/Popup_ShopConfirm.prefab",
       "destination": "Prefabs/UI/Popup/Popup_ShopConfirm.prefab",
       "source_sha256": "5b0fa1c1a57fc25388b6b0305b9e87e9fcc4044b99131f35b5796529a69e1b2b",
@@ -1974,6 +2368,78 @@
       "source_sha256": "85749bdcaa4454ef6a1a1111373e3fd6c92abc535a2133ecf149f2d184801af1",
       "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
       "export_sha256": "55e5a8dad285d4f4c0c56d8fb8e9c35c34ce56ac09a2d4590413d445cabe30de"
+    },
+    {
+      "source": "Assets/Prefabs/UI/block.prefab",
+      "destination": "Prefabs/UI/block.prefab",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "e5f3251979df63b90b92cc7c384e86a096f8dd3fa1be3e7bf63c080747db4dbe",
+      "change": "로그라이크 UI 연결 반영; 외부 이미지·폰트·머티리얼·애니메이션 참조 제거",
+      "export_sha256": "e0378183805f46e36bcd33afe9d89a975c4cd610d8b02bcee5c6c294e3e5c23e"
+    },
+    {
+      "source": "Assets/Prefabs/UI/block.prefab.meta",
+      "destination": "Prefabs/UI/block.prefab.meta",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "source_sha256": "4c4d84c2ef237c9b83bfe3b053a7e96e5a49296fdde77ce96fe4a712cb4b8b5e",
+      "change": "연결용 GUID만 유지하고 임포터 메타데이터 제거",
+      "export_sha256": "46317d5b3b0c4f6512fc25128d88eb37e1a7a87fb7a996ce5d613ecc286eba41"
+    }
+  ],
+  "latest_update_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+  "updates": [
+    {
+      "date": "2026-11-26",
+      "feature": "로그라이크 탐험 던전",
+      "source_revision": "097e69dc4c21043500719d474a5c46f2fa238be8",
+      "added": [
+        "Code/Battle/Stage/RoguelikeStage.cs",
+        "Code/Battle/Stage/RoguelikeWave.cs",
+        "Code/Battle/Stage/WaveSpawner.cs",
+        "Code/UI/InGame/Battle/ActionPopup.cs",
+        "Code/UI/InGame/Icon/Icon_Dungeon.cs",
+        "Code/UI/InGame/Icon/Icon_Mob.cs",
+        "Code/UI/InGame/Icon/Icon_RoguelikeEffect.cs",
+        "Code/UI/InGame/Icon/Icon_Stage.cs",
+        "Code/UI/InGame/UI_Dungeon.cs",
+        "Code/UI/InGame/UI_Game.cs",
+        "Code/UI/InGame/UI_LobbyQuest.cs",
+        "Code/UI/InGame/UI_Menu.cs",
+        "Code/UI/InGame/UI_Quest.cs",
+        "Code/UI/InGame/UI_Topbar.cs",
+        "Code/UI/Popup/Popup_RoguelikeSelect.cs",
+        "Code/UI/Popup/Popup_StageSelect.cs",
+        "Code/UI/Popup/Popup_WipeOut.cs",
+        "Prefabs/UI/Icon/Icon_Dungeon.prefab",
+        "Prefabs/UI/Icon/Icon_Mob.prefab",
+        "Prefabs/UI/Icon/icon_RoguelikeSelect.prefab",
+        "Prefabs/UI/InGame/UI_Dungeon.prefab",
+        "Prefabs/UI/InGame/UI_Topbar.prefab",
+        "Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab"
+      ],
+      "updated": [
+        "Code/Battle/BattleMgr.cs",
+        "Code/Battle/Missile/BaseMissile.cs",
+        "Code/Battle/Stage/BaseStage.cs",
+        "Code/Battle/Stage/ChallengeStage.cs",
+        "Code/Battle/Stage/ChapterBossStage.cs",
+        "Code/Battle/Stage/GoldDungeonStage.cs",
+        "Code/Battle/Stage/IStage.cs",
+        "Code/Battle/Stage/NormalStage.cs",
+        "Code/Battle/Units/BaseUnit.cs",
+        "Code/Battle/Units/PlayerUnit.cs",
+        "Code/Calculator/DropCalculator.cs",
+        "Code/Calculator/StatCalculator.cs",
+        "Code/Common/Constant.cs",
+        "Code/Common/Enums.cs",
+        "Code/Data/Table.cs",
+        "Code/UI/Popup/BasePopup.cs",
+        "Prefabs/UI/block.prefab",
+        "Prefabs/UI/Icon/Icon_Quest.prefab",
+        "Prefabs/UI/Icon/Icon_SimpleItem.prefab",
+        "Prefabs/UI/Icon/Icon_TopbarCurrency.prefab",
+        "Prefabs/UI/Icon/Icon_UICurrency.prefab"
+      ]
     }
   ]
 }

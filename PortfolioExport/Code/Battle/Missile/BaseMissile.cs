@@ -113,6 +113,7 @@ namespace Game.Battle.Missile
                 {
                     BattleMgr.PlayerDie += ReturnToPool;
                     BattleMgr.StageChanged += ReturnToPool;
+                    BattleMgr.WaveCombatCleared += ReturnToPool;
                     IsRegist = true;
                 }
             }
@@ -122,6 +123,7 @@ namespace Game.Battle.Missile
                 {
                     BattleMgr.PlayerDie -= ReturnToPool;
                     BattleMgr.StageChanged -= ReturnToPool;
+                    BattleMgr.WaveCombatCleared -= ReturnToPool;
                     IsRegist = false;
                 }
             }
@@ -134,6 +136,11 @@ namespace Game.Battle.Missile
 
         public void ReturnToPool()
         {
+            if (!gameObject.activeSelf || !IsInited)
+            {
+                return;
+            }
+
             foreach (var child in ChildMissile)
             {
                 if (child.gameObject.activeInHierarchy)
@@ -145,6 +152,8 @@ namespace Game.Battle.Missile
             if (IsChild)
             {
                 gameObject.SetActive(false);
+                IsInited = false;
+                RegistAction(false);
             }
             else
             {
@@ -163,6 +172,12 @@ namespace Game.Battle.Missile
 
         protected virtual void Update()
         {
+            if (BattleMgr.Instance != null && BattleMgr.Instance.IsCombatPaused)
+            {
+                Body.linearVelocity = Vector2.zero;
+                return;
+            }
+
             if (!IsInited)
             {
                 return;
@@ -234,7 +249,7 @@ namespace Game.Battle.Missile
 
         protected virtual void OnTriggerEnter2D(Collider2D collision)
         {
-            if (IsEnded)
+            if (!IsInited || IsEnded || (BattleMgr.Instance != null && BattleMgr.Instance.IsCombatPaused))
             {
                 return;
             }

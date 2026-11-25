@@ -2033,5 +2033,460 @@
         "replacement": "fileID: 0"
       }
     ]
+  },
+  {
+    "prefab": "Prefabs/UI/Icon/Icon_Dungeon.prefab",
+    "removed_references": [
+      {
+        "guid": "d4272eeba64e2d4438b9ee030b6da27f",
+        "source_asset": "Assets/Design/Sprite/Common/white.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "81d5998552addfd4cacc8f3c2498e3b7",
+        "source_asset": "Assets/Design/Sprite/Common/StageBg/bg_normal_01.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      }
+    ]
+  },
+  {
+    "prefab": "Prefabs/UI/Icon/Icon_Mob.prefab",
+    "removed_references": [
+      {
+        "guid": "5caa82d67d9d3d446b9f84f022ed2141",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/common.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "c27af7d93f4f7514a89024a985e456d5",
+        "source_asset": "Assets/Design/Sprite/Enemy/BrownBoar.png",
+        "replacement": "fileID: 0"
+      }
+    ]
+  },
+  {
+    "prefab": "Prefabs/UI/Icon/icon_RoguelikeSelect.prefab",
+    "removed_references": [
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "1a5203c4e51a9d545a8c02c8ac75498f",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Panel.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "c1bdb7f67c23c0a40b5dacc7107f9acf",
+        "source_asset": "Assets/Design/Sprite/Upgrade/attack_up.png",
+        "replacement": "fileID: 0"
+      }
+    ]
+  },
+  {
+    "prefab": "Prefabs/UI/InGame/UI_Dungeon.prefab",
+    "removed_references": [
+      {
+        "guid": "0000000000000000f000000000000000",
+        "source_asset": "원본 경로 미확인",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "2011cc3a30f676d4b893a4943364291b",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Close.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "d4272eeba64e2d4438b9ee030b6da27f",
+        "source_asset": "Assets/Design/Sprite/Common/white.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "0000000000000000f000000000000000",
+        "source_asset": "원본 경로 미확인",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "2dcc0afaff7f7a34fa17406a16cbb0d9",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/144.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "1a5203c4e51a9d545a8c02c8ac75498f",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Panel.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "81d5998552addfd4cacc8f3c2498e3b7",
+        "source_asset": "Assets/Design/Sprite/Common/StageBg/bg_normal_01.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "5c3778f9367f78647b23261f9184cf22",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/ButtonG.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "0000000000000000f000000000000000",
+        "source_asset": "원본 경로 미확인",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "0000000000000000f000000000000000",
+        "source_asset": "원본 경로 미확인",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "d90b27d648aa4a45915b42683f4153fd",
+        "source_asset": "Assets/PixelFantasy/Common/Sprites/UI/EleganceUI/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      }
+    ]
+  },
+  {
+    "prefab": "Prefabs/UI/InGame/UI_Topbar.prefab",
+    "removed_references": [
+      {
+        "guid": "ca21a036beafdc447b645b0895d5930a",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/blue.PNG",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "67ac2f4cfba19184fb38f0e4b5143391",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/76.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "c2ba3b275c7b5d14ba1a1dda16cb1c95",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/134.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "5f37a2ec3b004d346ae1718856f48a59",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/98.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "49a43fb1732424846a6718744cd61128",
+        "source_asset": "Assets/Design/Sprite/Common/gauge_bg.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "d4272eeba64e2d4438b9ee030b6da27f",
+        "source_asset": "Assets/Design/Sprite/Common/white.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "7b115b80461016a4b8034f030e1847d8",
+        "source_asset": "Assets/Design/Sprite/Common/text_bg.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "b1e920fe6f750084fb075cf8ff9d6136",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/66.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "a8a4ec6a50bc535419dce5790ba100e4",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Frame.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "5caa82d67d9d3d446b9f84f022ed2141",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/common.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "3d18c6ec08c164d49bf949b2176d1a4f",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/126.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "885d2422e23ddd948a896bc6a697e62a",
+        "source_asset": "Assets/Design/Sprite/Common/gauge_orange.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "ca21a036beafdc447b645b0895d5930a",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/blue.PNG",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "7b115b80461016a4b8034f030e1847d8",
+        "source_asset": "Assets/Design/Sprite/Common/text_bg.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fcfea19eb6e60b649acb790db576a0e2",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/77.png",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "ca21a036beafdc447b645b0895d5930a",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/blue.PNG",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "ca21a036beafdc447b645b0895d5930a",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/blue.PNG",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "ca21a036beafdc447b645b0895d5930a",
+        "source_asset": "Assets/Design/Sprite/Common/UsefulIcons/blue.PNG",
+        "replacement": "fileID: 0"
+      }
+    ]
+  },
+  {
+    "prefab": "Prefabs/UI/Popup/Popup_RoguelikeSelect.prefab",
+    "removed_references": [
+      {
+        "guid": "d225552b361fc60499ef620348a827bf",
+        "source_asset": "Assets/Design/Animation/Icons/Animator/GradeUp.controller",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "abb75e7b4d43e68408ab9c6066da6ad7",
+        "source_asset": "Assets/Design/Animation/Popup/Animator/Popup.controller",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "fe49625f2044f354c9e89021d354ba65",
+        "source_asset": "Assets/Design/Font/NEXON Kart Gothic Bold SDF.asset",
+        "replacement": "fileID: 0"
+      },
+      {
+        "guid": "1a5203c4e51a9d545a8c02c8ac75498f",
+        "source_asset": "Assets/Design/Sprite/Common/PixelFantasy/Panel.png",
+        "replacement": "fileID: 0"
+      }
+    ]
   }
 ]

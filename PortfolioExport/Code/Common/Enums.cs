@@ -4,13 +4,13 @@ namespace Game.Common
     {
         Currency, Dungeon, Enemy, Equip, EquipGacha, Gachas, Part, Shop
             , ShopCategory, Skill, Soul, SoulSubOption, Sound, Stage, Stat, Upgrade
-            , Event, EventCurrency, EventHunt, EventShop, Quest
+            , Event, EventCurrency, EventHunt, EventShop, Quest, RoguelikeWave, RoguelikeEffect
     }
 
     public enum Currency
     {
         Gold, Gem, EquipUp, MoonBless, SkillUp, Exp, EquipTicket, SkillTicket, DungeonTicket1, 
-        SoulUp,
+        SoulUp, DungeonTicket2,
     }
 
     public enum ProcessType
@@ -20,7 +20,7 @@ namespace Game.Common
 
     public enum BattleType
     {
-        Challenge, Normal, ChapterBoss, GoldDungeon,
+        Challenge, Normal, ChapterBoss, GoldDungeon, RogueDungeon,
     }
 
     public enum UnitState
@@ -32,7 +32,7 @@ namespace Game.Common
     public enum PopupType
     {
         Common, Warning, EquipGradeUp, Message, SkillEquip, StageSelect, ShopConfirm, GetItem, Gacha
-            , WipeOut, GachaDetail
+            , WipeOut, GachaDetail, RoguelikeSelect
     }
 
     // inspector에서 사용중이기 때문에 순서를 바꾸면 문제가 생긴다. 

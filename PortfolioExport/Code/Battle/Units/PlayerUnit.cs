@@ -111,6 +111,36 @@ namespace Game.Battle.Unit
         private void CalculateStat()
         {
             Stat = PowerMgr.PlayerStat;
+
+            if (BattleMgr.Instance.TryGetRoguelike(out var stage))
+            {
+                Stat = StatCalculator.ApplyRoguelikeEffects(Stat, stage.EffectIds);
+            }
+        }
+
+        public void RefreshRoguelikeStat(bool addHp)
+        {
+            double beforeMaxHp = Stat.MaxHp;
+            CalculateStat();
+
+            if (addHp)
+            {
+                NowHp += Math.Max(0, Stat.MaxHp - beforeMaxHp);
+            }
+
+            NowHp = Math.Min(NowHp, Stat.MaxHp);
+        }
+
+        public void ResetBattleTarget()
+        {
+            TargetUnit = null;
+            RigidBody.linearVelocity = Vector2.zero;
+
+            if (IsAlived)
+            {
+                State.SetStateForced(UnitState.None);
+                Ani.SetState(UnitState.None);
+            }
         }
 
         private void EquipChanged()
@@ -157,7 +187,7 @@ namespace Game.Battle.Unit
 
         public override void TakeDamage(BattleStat stat, Buff buff, float multi)
         {
-            if (IsInvincibility || !IsAlived)
+            if (BattleMgr.Instance.IsCombatPaused || IsInvincibility || !IsAlived)
             {
                 return;
             }

@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ namespace Game.UI.Popup
 {
     public abstract class BasePopup : MonoBehaviour
     {
+        public event Action Closed;
         public TextMeshProUGUI TextTitle;
         public TextMeshProUGUI TextContent;
 
@@ -51,6 +53,11 @@ namespace Game.UI.Popup
 
         public void Close()
         {
+            if (IsEnd)
+            {
+                return;
+            }
+
             IsEnd = true;
             CloseAction();
             SoundMgr.Instance.PlaySFXSound(SFXType.UIClose);
@@ -65,6 +72,7 @@ namespace Game.UI.Popup
             }
 
             PopupMgr.Instance.Close(NowType);
+            Closed?.Invoke();
         }
 
         protected virtual void Awake()

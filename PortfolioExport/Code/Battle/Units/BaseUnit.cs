@@ -65,6 +65,12 @@ namespace Game.Battle.Unit
 
         protected virtual void Update()
         {
+            if (BattleMgr.Instance != null && BattleMgr.Instance.IsCombatPaused)
+            {
+                RigidBody.linearVelocity = Vector2.zero;
+                return;
+            }
+
             if (IsInit)
             {
                 UpdateTimer();
